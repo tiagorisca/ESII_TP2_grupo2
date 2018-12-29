@@ -1,6 +1,6 @@
 package Enums;
 
-public enum TiposPesquisas {
+public enum TiposPesquisa {
     NORMAL, COM_LIMITE_MAXIMO, COM_LIMITE_GRAU;
 
     @Override
