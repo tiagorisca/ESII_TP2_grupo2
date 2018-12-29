@@ -13,7 +13,7 @@ public class Main {
 
         PesquisaJFrame pf = new PesquisaJFrame(new Pesquisa());
         pf.setVisible(true);
-        LeituraDocumentos file = new LeituraDocumentos("files/");
+        LeituraDocumentos file = new LeituraDocumentos("files/documentos/");
         String[] lista = file.lerDocumentos();
         for(int i = 0; i<lista.length; i++){
             System.out.println(lista[i]);

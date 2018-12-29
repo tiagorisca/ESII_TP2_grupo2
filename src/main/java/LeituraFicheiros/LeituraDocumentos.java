@@ -23,6 +23,10 @@ public class LeituraDocumentos {
     }
 
     public String[] lerDocumentos() throws IOException {
+
+        if(numDocs == 0){
+            return null;
+        }
         //Lista de ficheiros
         File folder = new File(this.path);
         File[] listaFicheiros = folder.listFiles();

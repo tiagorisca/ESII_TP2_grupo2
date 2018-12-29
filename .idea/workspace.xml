@@ -2,300 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b07039d-dc96-47c6-bcdc-bbda500f2d6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6_javadoc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6_javadoc1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/java.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Demo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeituraFicheiros/LeituraFicheiros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ficheiro 1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/ficheiro 1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ficheiro 2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/ficheiro 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ficheiro 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/ficheiro 3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ficheiro 4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/ficheiro 4.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/ByteOrderMark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/ByteOrderParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/Charsets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/CopyUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/DirectoryWalker.CancelException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/DirectoryWalker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/EndianUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/FileCleaner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/FileCleaningTracker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/FileDeleteStrategy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/FileExistsException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/FileSystemUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/FileUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/FilenameUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/HexDump.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/IOCase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/IOExceptionWithCause.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/IOUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/LineIterator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/TaggedIOException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/ByteOrderMark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/ByteOrderParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/Charsets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/CopyUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/DirectoryWalker.CancelException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/DirectoryWalker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/EndianUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/FileCleaner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/FileCleaningTracker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/FileDeleteStrategy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/FileExistsException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/FileSystemUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/FileUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/FilenameUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/HexDump.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/IOCase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/IOExceptionWithCause.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/IOUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/LineIterator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/class-use/TaggedIOException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/CompositeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/DefaultFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/DirectoryFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/ExtensionFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/LastModifiedFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/NameFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/PathFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/SizeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/class-use/CompositeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/class-use/DefaultFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/class-use/DirectoryFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/class-use/ExtensionFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/class-use/LastModifiedFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/class-use/NameFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/class-use/PathFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/class-use/SizeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/comparator/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/AbstractFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/AgeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/AndFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/CanReadFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/CanWriteFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/ConditionalFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/DelegateFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/DirectoryFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/EmptyFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/FalseFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/FileFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/FileFilterUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/HiddenFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/IOFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/MagicNumberFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/NameFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/NotFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/OrFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/PrefixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/RegexFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/SizeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/SuffixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/TrueFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/WildcardFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/WildcardFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/AbstractFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/AgeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/AndFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/CanReadFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/CanWriteFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/ConditionalFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/DelegateFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/DirectoryFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/EmptyFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/FalseFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/FileFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/FileFilterUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/HiddenFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/IOFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/MagicNumberFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/NameFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/NotFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/OrFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/PrefixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/RegexFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/SizeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/SuffixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/TrueFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/WildcardFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/class-use/WildcardFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/filefilter/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/AutoCloseInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/BOMInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/BoundedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/BoundedReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/BrokenInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/CharSequenceInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/CharSequenceReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/ClassLoaderObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/CloseShieldInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/ClosedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/CountingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/DemuxInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/InfiniteCircularInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/MessageDigestCalculatingInputStream.MessageDigestMaintainingObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/MessageDigestCalculatingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/NullInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/NullReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/ObservableInputStream.Observer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/ObservableInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/ProxyInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/ProxyReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/ReaderInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/ReversedLinesFileReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/SwappedDataInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/TaggedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/Tailer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/TailerListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/TailerListenerAdapter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/TeeInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/UnixLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/WindowsLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/XmlStreamReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/XmlStreamReaderException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/AutoCloseInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/BOMInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/BoundedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/BoundedReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/BrokenInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/CharSequenceInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/CharSequenceReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/ClassLoaderObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/CloseShieldInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/ClosedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/CountingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/DemuxInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/InfiniteCircularInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/MessageDigestCalculatingInputStream.MessageDigestMaintainingObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/MessageDigestCalculatingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/NullInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/NullReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/ObservableInputStream.Observer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/ObservableInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/ProxyInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/ProxyReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/ReaderInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/ReversedLinesFileReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/SwappedDataInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/TaggedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/Tailer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/TailerListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/TailerListenerAdapter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/TeeInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/UnixLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/WindowsLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/XmlStreamReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/class-use/XmlStreamReaderException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/input/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/FileAlterationListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/FileAlterationListenerAdaptor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/FileAlterationMonitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/FileAlterationObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/FileEntry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/class-use/FileAlterationListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/class-use/FileAlterationListenerAdaptor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/class-use/FileAlterationMonitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/class-use/FileAlterationObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/class-use/FileEntry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/monitor/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/AppendableOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/BrokenOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/ByteArrayOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/ChunkedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/ChunkedWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/CloseShieldOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/ClosedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/CountingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/DeferredFileOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/DemuxOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/FileWriterWithEncoding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/LockableFileWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/NullOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/NullWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/ProxyOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/ProxyWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/StringBuilderWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/TaggedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/TeeOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/ThresholdingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/WriterOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/XmlStreamWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/AppendableOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/BrokenOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/ByteArrayOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/ChunkedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/ChunkedWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/CloseShieldOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/ClosedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/CountingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/DeferredFileOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/DemuxOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/FileWriterWithEncoding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/LockableFileWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/NullOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/NullWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/ProxyOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/ProxyWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/StringBuilderWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/TaggedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/TeeOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/ThresholdingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/WriterOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/class-use/XmlStreamWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/output/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/serialization/ClassNameMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/serialization/ValidatingObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/serialization/class-use/ClassNameMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/serialization/class-use/ValidatingObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/serialization/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/serialization/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/serialization/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/org/apache/commons/io/serialization/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ficheiro 1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/documentos/ficheiro 1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ficheiro 2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/documentos/ficheiro 2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ficheiro 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/documentos/ficheiro 3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/ficheiro 4.docx" beforeDir="false" afterPath="$PROJECT_DIR$/files/documentos/ficheiro 4.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraFicheiros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -311,6 +23,37 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Trabalho2_ES2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Trabalho2_ES2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Trabalho2_ES2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1731156761">
       <usages-collector id="statistics.lifecycle.project">
@@ -323,24 +66,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="1" />
-          <entry key="java" value="3" />
+          <entry key="gradle" value="2" />
+          <entry key="java" value="5" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="5" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14" />
+          <entry key="dummy" value="11" />
+          <entry key="java" value="172" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="172" />
+          <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
     </session>
@@ -428,54 +176,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Core/Pesquisa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-433">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
-                <element signature="e#2224#2225#0" expanded="true" />
-                <element signature="e#2251#2252#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="108">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#2224#2225#0" expanded="true" />
+                <element signature="e#2249#2250#0" expanded="true" />
+                <element signature="e#2290#2291#0" expanded="true" />
+                <element signature="e#2315#2316#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="255">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -484,28 +219,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/ficheiro 1.txt">
+        <entry file="file://$PROJECT_DIR$/files/filesTestes/ficheirotest 1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            <state>
+              <caret selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/files/filesTestes/ficheirotest 2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/ficheiro 2.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/ficheiro 3.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="193">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -837,10 +575,14 @@
         <option value="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraFicheiros.java" />
         <option value="$PROJECT_DIR$/files/ficheiro 2.txt" />
         <option value="$PROJECT_DIR$/files/ficheiro 3.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/Demo/Main.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/files/ficheiro 1.txt" />
         <option value="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LeituraFicheirosTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Demo/Main.java" />
+        <option value="$PROJECT_DIR$/files/filesTestes/ficheirotest 1.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java" />
+        <option value="$PROJECT_DIR$/files/filesTestes/ficheirotest 2.txt" />
       </list>
     </option>
   </component>
@@ -855,6 +597,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -876,34 +619,46 @@
           <expand>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="documentos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="filesTestes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -911,7 +666,7 @@
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -919,7 +674,7 @@
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -927,7 +682,7 @@
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -935,7 +690,7 @@
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES2_TP2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -943,37 +698,35 @@
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.apiguardian:apiguardian-api:1.0.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.junit.jupiter:junit-jupiter-api:5.3.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546120935466" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546121815280" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/xmlbeans-3.0.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2735632" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tiago\IdeaProjects\Trabalho2_ES2\files\documentos" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -987,7 +740,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LeituraDocumentosTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo.Main" />
       <module name="Trabalho2_ES2_main" />
@@ -1001,8 +754,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Trabalho2_ES2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="LeituraDocumentosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trabalho2_ES2_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeituraDocumentosTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeituraDocumentosTest.testId_TP1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trabalho2_ES2_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeituraDocumentosTest" />
+      <option name="METHOD_NAME" value="testId_TP1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.Trabalho2_ES2 [build]" />
+      <item itemvalue="JUnit.LeituraDocumentosTest.testId_TP1" />
+      <item itemvalue="JUnit.LeituraDocumentosTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeituraDocumentosTest" />
+        <item itemvalue="JUnit.LeituraDocumentosTest.testId_TP1" />
+        <item itemvalue="Gradle.Trabalho2_ES2 [build]" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -1020,11 +818,19 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LeituraDocumentosTest_testId_TP1 - 2018.12.29 at 22h 20m 18s.xml">
+      <configuration name="LeituraDocumentosTest.testId_TP1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeituraDocumentosTest - 2018.12.29 at 22h 22m 37s.xml">
+      <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26435044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1034,21 +840,21 @@
       <window_info id="Learn" order="7" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3898858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3885246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32626426" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3262295" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.3262295" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32626426" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3262295" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -1101,13 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Core/Pesquisa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1117,52 +916,94 @@
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/ficheiro 1.txt">
+    <entry file="file://$PROJECT_DIR$/files/documentos/ficheiro 1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/ficheiro 2.txt">
+    <entry file="file://$PROJECT_DIR$/files/documentos/ficheiro 2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/ficheiro 3.txt">
+    <entry file="file://$PROJECT_DIR$/files/documentos/ficheiro 3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Core/Pesquisa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="193">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/files/filesTestes/ficheirotest 1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-433">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="108">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2251#2252#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+            <element signature="e#2290#2291#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/filesTestes/ficheirotest 2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
