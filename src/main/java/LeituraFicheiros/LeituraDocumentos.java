@@ -70,9 +70,15 @@ public class LeituraDocumentos {
 
         String line = buf.readLine();
         StringBuilder sb = new StringBuilder();
+        boolean first = true;
 
         while(line != null){
-            sb.append(line);
+            if(first){
+               sb.append(line);
+               first=false;
+            }else{
+                sb.append(" " + line);
+            }
             line = buf.readLine();
         }
 
