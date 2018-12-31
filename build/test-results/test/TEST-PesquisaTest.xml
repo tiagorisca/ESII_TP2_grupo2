@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PesquisaTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-12-31T02:14:41" hostname="Toshiba-PC" time="0.06">
+<testsuite name="PesquisaTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-12-31T15:57:33" hostname="DESKTOP-SJLNRU1" time="0.038">
   <properties/>
-  <testcase name="testId_TP3()" classname="PesquisaTest" time="0.057"/>
-  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.001"/>
+  <testcase name="testId_TP3()" classname="PesquisaTest" time="0.031"/>
+  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.0"/>
+  <testcase name="testId_TP5()" classname="PesquisaTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
