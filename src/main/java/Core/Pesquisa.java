@@ -1,11 +1,20 @@
 package Core;
 
+import java.text.Normalizer;
+
 public class Pesquisa {
     private int m[][];
     private String q[];
 
     public Pesquisa() {
 
+    }
+    public String eliminarCaracteresPontuacao(String texto){
+
+        String string = Normalizer.normalize(texto, Normalizer.Form.NFD);
+        string = string.toLowerCase();
+        string = string.replaceAll("[^\\p{ASCII}]", "");
+        return string;
     }
 
     public String eliminarDigitos(String text){
