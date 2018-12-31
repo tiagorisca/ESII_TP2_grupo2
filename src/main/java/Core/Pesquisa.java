@@ -17,6 +17,11 @@ public class Pesquisa {
         return string;
     }
 
+    public String eliminarDigitos(String text){
+        String texto = text.replaceAll("[0-9]+","");
+        return texto;
+    }
+
     public int[][] getM() {
         return m;
     }

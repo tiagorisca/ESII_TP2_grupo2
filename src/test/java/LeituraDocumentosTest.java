@@ -1,3 +1,4 @@
+import Core.Pesquisa;
 import LeituraFicheiros.LeituraDocumentos;
 import org.junit.jupiter.api.Test;
 
@@ -24,5 +25,14 @@ public class LeituraDocumentosTest {
         LeituraDocumentos ld = new LeituraDocumentos("files/folderTest/");
         String[] ler = ld.lerDocumentos();
         assertEquals(null, ler);
+    }
+
+    //Testar se os digitos são removidos no método eliminarDigitos
+    @Test
+    public void testId_TP5(){
+        Pesquisa p = new Pesquisa();
+        String input = "Eu sou 5vezes mais forte";
+        String output = p.eliminarDigitos(input);
+        assertEquals("Eu sou vezes mais forte", output);
     }
 }
