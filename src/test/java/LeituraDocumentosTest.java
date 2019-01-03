@@ -10,13 +10,12 @@ public class LeituraDocumentosTest {
 
     /**
      * Testar se devolve null se não houver documentos para ler
-     * Criar diretoria na pasta files/filesTestes/ chamada TP1
-     *
+     * Criar diretoria na pasta files/filesTestes/ chamada folderTest
      * @throws IOException
      */
     @Test
     public void testId_TP1() throws IOException {
-        LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TP1/");
+        LeituraDocumentos ld = new LeituraDocumentos("files/folderTest/");
         String[] ler = ld.lerDocumentos();
 
         assertEquals(null, ler);

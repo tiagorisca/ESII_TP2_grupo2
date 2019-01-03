@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b07039d-dc96-47c6-bcdc-bbda500f2d6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/files/filesTestes/TB2/ficheirotest 3.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/filesTestes/TB3/ficheirotest 4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/filesTestes/TB4/ficheirotest 5.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/filesTestes/TP2/ficheiro 1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/filesTestes/TP2/ficheiro 2.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/filesTestes/TP2/ficheiro 3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeituraFicheiros/LeituraDocumentos.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeituraFicheiros/LeituraDocumentos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeituraDocumentosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeituraDocumentosTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/LeituraDocumentosTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/LeituraDocumentosTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/PesquisaTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-LeituraDocumentosTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-LeituraDocumentosTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-PesquisaTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/filesTestes/ficheirotest 1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/filesTestes/TB1/ficheirotest 1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/filesTestes/ficheirotest 2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/filesTestes/TB1/ficheirotest 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,10 +61,11 @@
     <session id="1731156761">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -106,13 +88,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="341" />
+          <entry key="java" value="362" />
           <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="341" />
+          <entry key="JAVA" value="362" />
           <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
@@ -200,11 +182,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Core/Pesquisa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="150">
+              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,10 +216,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PesquisaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="561">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -571,13 +586,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -605,81 +619,48 @@
           <expand>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
               <item name="documentos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="filesTestes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="filesTestes" type="462c0819:PsiDirectoryNode" />
-              <item name="TB1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="filesTestes" type="462c0819:PsiDirectoryNode" />
-              <item name="TB2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="filesTestes" type="462c0819:PsiDirectoryNode" />
-              <item name="TB3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="filesTestes" type="462c0819:PsiDirectoryNode" />
-              <item name="TB4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="filesTestes" type="462c0819:PsiDirectoryNode" />
-              <item name="TP2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -687,11 +668,40 @@
             </path>
             <path>
               <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JFrames" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="LeituraFicheiros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trabalho2_ES2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho2_ES2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -703,7 +713,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546271886799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546531808648" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/xmlbeans-3.0.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -711,15 +721,15 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Universidade\ES2\Projeto2\files\filesTestes\TB3" />
-      <recent name="G:\Universidade\ES2\Projeto2\files\filesTestes\TB1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Universidade\ES2\Projeto2\files\filesTestes\TB2" />
       <recent name="G:\Universidade\ES2\Projeto2\files\filesTestes\TB3" />
       <recent name="G:\Universidade\ES2\Projeto2\files\filesTestes\TP1" />
       <recent name="C:\Users\tiago\IdeaProjects\Trabalho2_ES2\files\documentos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Universidade\ES2\Projeto2\files\filesTestes\TB3" />
+      <recent name="G:\Universidade\ES2\Projeto2\files\filesTestes\TB1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -850,15 +860,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeituraDocumentosTest - 2018.12.31 at 19h 14m 44s.xml">
-      <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeituraDocumentosTest_testId_TP3 - 2018.12.31 at 19h 19m 02s.xml">
-      <configuration name="LeituraDocumentosTest.testId_TP3" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LeituraDocumentosTest_testId_TP3 - 2018.12.31 at 19h 19m 42s.xml">
-      <configuration name="LeituraDocumentosTest.testId_TP3" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="LeituraDocumentosTest_testId_TP3 - 2018.12.31 at 19h 20m 03s.xml">
       <configuration name="LeituraDocumentosTest.testId_TP3" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -880,6 +881,15 @@
     <history-entry file="LeituraDocumentosTest - 2018.12.31 at 19h 35m 16s.xml">
       <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LeituraDocumentosTest - 2019.01.03 at 16h 07m 02s.xml">
+      <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeituraDocumentosTest - 2019.01.03 at 16h 07m 59s.xml">
+      <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeituraDocumentosTest - 2019.01.03 at 16h 08m 38s.xml">
+      <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,9 +901,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1704698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -903,16 +913,16 @@
       <window_info id="Learn" order="7" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848944" weight="0.54042554" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848944" weight="0.53934425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" visible="true" weight="0.34751773" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" visible="true" weight="0.2852459" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.31639344" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32459018" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.32952693" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="10" weight="0.32952693" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32459018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -1028,13 +1038,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/filesTestes/TP1/ficheirotest 1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/files/filesTestes/TP1/ficheirotest 1.txt" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1045,13 +1049,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/filesTestes/TP1/ficheirotest 2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/files/filesTestes/TP1/ficheirotest 2.txt" />
     <entry file="file://$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1079,37 +1077,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PesquisaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Core/Pesquisa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/filesTestes/TB1/ficheirotest 1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,10 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="194" selection-start-line="194" selection-end-line="194" />
-          <folding>
-            <element signature="e#5280#5281#0" expanded="true" />
-            <element signature="e#5332#5333#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1135,16 +1102,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="507" selection-start-line="507" selection-end-line="507" />
-          <folding>
-            <element signature="e#18883#18884#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Core/Pesquisa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="833">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PesquisaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1153,8 +1144,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="150">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
