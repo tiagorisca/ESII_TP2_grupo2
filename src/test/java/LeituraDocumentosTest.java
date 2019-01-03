@@ -49,7 +49,6 @@ public class LeituraDocumentosTest {
         String[] ler = ld.lerDocumentos();
 
         assertEquals("Gosto de engenharia de software", ler[0]);
-        assertEquals("Nao gosto de engenharia de software", ler[1]);
     }
 
     /**
