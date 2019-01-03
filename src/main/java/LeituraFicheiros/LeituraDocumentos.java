@@ -10,7 +10,6 @@ import java.util.List;
 
 public class LeituraDocumentos {
     private final String FORMATO_TXT = "txt";
-    private final String FORMATO_DOC = "doc";
     private final String FORMATO_DOCX = "docx";
     private final String FORMATO_PDF = "pdf";
 
@@ -47,9 +46,6 @@ public class LeituraDocumentos {
                 case FORMATO_TXT:
                     conteudosDocumentos[i] = lerTxt(listaFicheiros[i].getName());
                     break;
-                case FORMATO_DOC:
-                    conteudosDocumentos[i] = lerDoc(listaFicheiros[i].getName());
-                    break;
                 case FORMATO_DOCX:
                     conteudosDocumentos[i] = lerDoc(listaFicheiros[i].getName());
                     break;
@@ -70,9 +66,15 @@ public class LeituraDocumentos {
 
         String line = buf.readLine();
         StringBuilder sb = new StringBuilder();
+        boolean first = true;
 
         while(line != null){
-            sb.append(line);
+            if(first){
+                first = false;
+                sb.append(line);
+            }else{
+                sb.append(" "+line);
+            }
             line = buf.readLine();
         }
 
@@ -88,8 +90,14 @@ public class LeituraDocumentos {
             List<XWPFParagraph> paragraphs = document.getParagraphs();
 
             String result = "";
+            boolean first = true;
             for (XWPFParagraph para : paragraphs) {
-                result += " " + para.getText();
+                if(first){
+                    first = false;
+                    result += para.getText();
+                }else{
+                    result += " " + para.getText();
+                }
             }
             fis.close();
             return result;
@@ -101,14 +109,10 @@ public class LeituraDocumentos {
 
     private String lerPdf(String name) throws IOException {
         PDDocument document = PDDocument.load(new File(path + name));
-        if (!document.isEncrypted()) {
-            PDFTextStripper stripper = new PDFTextStripper();
-            String text = stripper.getText(document);
-            document.close();
-            return text;
-        }
+        PDFTextStripper stripper = new PDFTextStripper();
+        String text = stripper.getText(document);
         document.close();
-        return "";
+        return text;
     }
 
 
