@@ -12,7 +12,7 @@ public class LeituraDocumentosTest {
      * Testar se devolve null se não houver documentos para ler
      * Criar diretoria na pasta files/filesTestes/ chamada folderTest
      * @throws IOException
-     */
+
     @Test
     public void testId_TP1() throws IOException {
         LeituraDocumentos ld = new LeituraDocumentos("files/folderTest/");
@@ -20,6 +20,7 @@ public class LeituraDocumentosTest {
 
         assertEquals(null, ler);
     }
+     */
 
     /**
      * Testar se a leitura é feita corretamente com vários tipos de ficheiros
