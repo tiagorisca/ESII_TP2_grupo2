@@ -1,4 +1,5 @@
 import Core.Pesquisa;
+import LeituraFicheiros.LeituraDocumentos;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -35,5 +36,15 @@ public class PesquisaTest {
         String input = "Eu sou 5vezes mais forte";
         String output = p.eliminarDigitos(input);
         assertEquals("Eu sou vezes mais forte", output);
+    }
+
+    //Testar se o método contarNumDocsContemPalavra devolve o número de documentos q contem uma palavra especifica
+    @Test
+    public void testId_TP6() throws IOException {
+        Pesquisa p = new Pesquisa();
+        LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TP/");
+        String[] conteudos = ld.lerDocumentos();
+        String palavra = "Testar";
+        assertEquals(p.contarNumDocsContemPalavra(conteudos, palavra), 3);
     }
 }

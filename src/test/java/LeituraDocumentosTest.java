@@ -29,7 +29,7 @@ public class LeituraDocumentosTest {
      */
     @Test
     public void testId_TP2() throws IOException {
-        LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TP2/");
+        LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TP/");
         String[] ler = ld.lerDocumentos();
 
         assertEquals("Testar documento do tipo: txt", ler[0]);
