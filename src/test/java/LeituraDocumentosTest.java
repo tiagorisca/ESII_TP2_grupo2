@@ -44,9 +44,14 @@ public class LeituraDocumentosTest {
      * @throws IOException
      */
     @Test
-    public void testId_TB1() throws IOException {
+    public void testId_TB1() {
         LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TB1/");
-        String[] ler = ld.lerDocumentos();
+        String[] ler = new String[0];
+        try {
+            ler = ld.lerDocumentos();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         assertEquals("Gosto de engenharia de software", ler[0]);
     }
