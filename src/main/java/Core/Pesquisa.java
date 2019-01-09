@@ -6,26 +6,53 @@ import java.io.IOException;
 import java.text.Normalizer;
 
 public class Pesquisa {
-    private int m[][];
+    LeituraDocumentos ld;
+    private ContagemPalavra m[][];
     private String q[];
 
-    public Pesquisa(){
-        try {
-            definirMatrizM();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+    public Pesquisa(String path){
+        ld = new LeituraDocumentos(path);
     }
 
-    private void definirMatrizM() throws IOException {
-        LeituraDocumentos ld = new LeituraDocumentos("files/documentos/");
+
+    public void definirMatrizM() throws IOException {
         String[] conteudosDocs = ld.lerDocumentos();
+        m = new ContagemPalavra[ld.getNumDocs()][650];
         int numDoc = 0;
         for(String conteudo : conteudosDocs){
             conteudo = eliminarCaracteresPontuacao(conteudo);
             conteudo = eliminarDigitos(conteudo);
+            String[] parts = conteudo.split(" ");
+            int indPalavra = 0;
+            for(String palavra : parts){
+                if(!contemPalavra(palavra, numDoc)){
+                    m[numDoc][indPalavra] = new ContagemPalavra(palavra, 1);
+                }else{
+                    int indiceExistente = getIndicePalavra(palavra, numDoc);
+                    m[numDoc][indiceExistente].setContagem(m[numDoc][indiceExistente].getContagem() + 1);
+                }
+                indPalavra++;
+            }
+            numDoc++;
         }
+    }
+
+    private int getIndicePalavra(String palavra, int numDoc) {
+        for(int i=0; i<m[numDoc].length; i++){
+            if(m[numDoc][i] != null && m[numDoc][i].getPalavra().equals(palavra)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    private boolean contemPalavra(String palavra, int numDoc) {
+        for(int i=0; i<m[numDoc].length; i++){
+            if(m[numDoc][i] != null && m[numDoc][i].getPalavra().equals(palavra)){
+                return true;
+            }
+        }
+        return false;
     }
 
     public int contarNumDocsContemPalavra(String[] conteudosDocs, String palavra){
@@ -51,11 +78,11 @@ public class Pesquisa {
         return texto;
     }
 
-    public int[][] getM() {
+    public ContagemPalavra[][] getM() {
         return m;
     }
 
-    public void setM(int[][] m) {
+    public void setM(ContagemPalavra[][] m) {
         this.m = m;
     }
 
@@ -65,5 +92,13 @@ public class Pesquisa {
 
     public void setQ(String[] q) {
         this.q = q;
+    }
+
+    public LeituraDocumentos getLd() {
+        return ld;
+    }
+
+    public void setLd(LeituraDocumentos ld) {
+        this.ld = ld;
     }
 }

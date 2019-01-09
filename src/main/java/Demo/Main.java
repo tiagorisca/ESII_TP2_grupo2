@@ -10,15 +10,12 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-
-        PesquisaJFrame pf = new PesquisaJFrame(new Pesquisa());
+        Pesquisa p = new Pesquisa("files/documentos/");
+        PesquisaJFrame pf = new PesquisaJFrame(p);
         pf.setVisible(true);
-        LeituraDocumentos file = new LeituraDocumentos("files/documentos/");
-        String[] lista = file.lerDocumentos();
-        for(int i = 0; i<lista.length; i++){
-            System.out.println(lista[i]);
 
-        }
+
+
     }
 
 }
