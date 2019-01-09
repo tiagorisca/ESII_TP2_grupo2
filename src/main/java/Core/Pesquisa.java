@@ -17,7 +17,7 @@ public class Pesquisa {
 
     public void definirMatrizM() throws IOException {
         String[] conteudosDocs = ld.lerDocumentos();
-        m = new ContagemPalavra[ld.getNumDocs()][650];
+        m = new ContagemPalavra[ld.getNumDocs()][ld.getMaxPalavras()];
         int numDoc = 0;
         for(String conteudo : conteudosDocs){
             conteudo = eliminarCaracteresPontuacao(conteudo);

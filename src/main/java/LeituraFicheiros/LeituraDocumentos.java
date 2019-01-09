@@ -6,6 +6,7 @@ import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class LeituraDocumentos {
@@ -15,12 +16,14 @@ public class LeituraDocumentos {
 
     int numDocs ;
     String path ;
+    int maxPalavras;
 
     public LeituraDocumentos(String path) {
         this.path = path;
         File folder = new File(this.path);
         File[] list = folder.listFiles();
         numDocs = list.length;
+        maxPalavras = -1;
     }
 
     public int getNumDocs() {
@@ -78,6 +81,7 @@ public class LeituraDocumentos {
             line = buf.readLine();
         }
 
+        vefiricarMaxPalavras(sb.toString());
         return sb.toString();
     }
     private String lerDoc(String name) {
@@ -100,6 +104,7 @@ public class LeituraDocumentos {
                 }
             }
             fis.close();
+            vefiricarMaxPalavras(result);
             return result;
         } catch (Exception e) {
             e.printStackTrace();
@@ -112,7 +117,27 @@ public class LeituraDocumentos {
         PDFTextStripper stripper = new PDFTextStripper();
         String text = stripper.getText(document);
         document.close();
+        vefiricarMaxPalavras(text);
         return text;
+    }
+
+    private void vefiricarMaxPalavras(String text) {
+        int contador = 0;
+        ArrayList<String> palavrasEncontradas = new ArrayList<>();
+        String[] parts = text.split(" ");
+        for(String s: parts){
+            if(!palavrasEncontradas.contains(s)) {
+                contador++;
+                palavrasEncontradas.add(s);
+            }
+        }
+        if(this.maxPalavras < contador){
+            maxPalavras = contador;
+        }
+    }
+
+    public int getMaxPalavras() {
+        return maxPalavras;
     }
 
 

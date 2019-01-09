@@ -62,7 +62,30 @@ public class PesquisaTest {
     public void testId_TP8() throws IOException {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");
         p.definirMatrizM();
-        String palavra = "testar";
         assertEquals(1, p.getM()[0][0].getContagem());
+    }
+
+    // Testar se o método definirMatrizM() tem a matriz com o número de colunas igual ao máximo de palavras diferentes
+    @Test
+    public void testId_TB5() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TB5/");
+        p.definirMatrizM();
+        assertEquals(3, p.getM()[0].length);
+    }
+
+    // Testar se o método definirMatrizM() tem a matriz com o número de colunas igual a 1 com a documento com 3 palavras iguais
+    @Test
+    public void testId_TB6() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TB6/");
+        p.definirMatrizM();
+        assertEquals(1, p.getM()[0].length);
+    }
+
+    //Testar se o método definirMatrizM() guarda a contagem de mais que uma palavra igual
+    @Test
+    public void testId_TB7() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TB6/");
+        p.definirMatrizM();
+        assertEquals(3, p.getM()[0][0].getContagem());
     }
 }

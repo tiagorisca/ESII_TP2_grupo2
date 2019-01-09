@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PesquisaTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-09T12:58:25" hostname="Toshiba-PC" time="0.36">
+<testsuite name="PesquisaTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-01-09T14:29:46" hostname="DESKTOP-SJLNRU1" time="1.664">
   <properties/>
-  <testcase name="testId_TP3()" classname="PesquisaTest" time="0.032"/>
-  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TP5()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TP6()" classname="PesquisaTest" time="0.1"/>
-  <testcase name="testId_TP7()" classname="PesquisaTest" time="0.125"/>
-  <testcase name="testId_TP8()" classname="PesquisaTest" time="0.093"/>
+  <testcase name="testId_TB5()" classname="PesquisaTest" time="0.037"/>
+  <testcase name="testId_TB6()" classname="PesquisaTest" time="0.002"/>
+  <testcase name="testId_TB7()" classname="PesquisaTest" time="0.004"/>
+  <testcase name="testId_TP3()" classname="PesquisaTest" time="0.007"/>
+  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.002"/>
+  <testcase name="testId_TP5()" classname="PesquisaTest" time="0.002"/>
+  <testcase name="testId_TP6()" classname="PesquisaTest" time="1.427"/>
+  <testcase name="testId_TP7()" classname="PesquisaTest" time="0.073"/>
+  <testcase name="testId_TP8()" classname="PesquisaTest" time="0.083"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
