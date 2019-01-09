@@ -88,4 +88,27 @@ public class PesquisaTest {
         p.definirMatrizM();
         assertEquals(3, p.getM()[0][0].getContagem());
     }
+
+    //Testar se o método definirMatrizQ() guarda as palavras pesquisadas no array
+    @Test
+    public void testId_TP9() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizQ("ola ola tudo bem");
+        String[] expected = {"ola", "tudo", "bem"};
+        assertEquals(expected[0], p.getQ()[0].getPalavra());
+        assertEquals(expected[1], p.getQ()[1].getPalavra());
+        assertEquals(expected[2], p.getQ()[2].getPalavra());
+    }
+
+
+    //Testar se o método definirMatrizQ() guarda a quantidade certa de palavras iguais pesquisadas no array
+    @Test
+    public void testId_TP10() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizQ("ola ola tudo bem");
+        int[] expected = {2, 1, 1};
+        assertEquals(expected[0], p.getQ()[0].getContagem());
+        assertEquals(expected[1], p.getQ()[1].getContagem());
+        assertEquals(expected[2], p.getQ()[2].getContagem());
+    }
 }

@@ -1,17 +1,58 @@
 package Core;
 
+import Enums.TiposPesquisa;
 import LeituraFicheiros.LeituraDocumentos;
 
 import java.io.IOException;
 import java.text.Normalizer;
+import java.util.ArrayList;
 
 public class Pesquisa {
     LeituraDocumentos ld;
     private ContagemPalavra m[][];
-    private String q[];
+    private ContagemPalavra q[];
 
     public Pesquisa(String path){
         ld = new LeituraDocumentos(path);
+    }
+
+    public String[] pesquisar(String pesquisa, TiposPesquisa tipo_pesquisa, int input) throws IOException {
+        definirMatrizQ(pesquisa);
+        definirMatrizM();
+        return new String[1]; //temporario
+    }
+
+    public void definirMatrizQ(String pesquisa) {
+        pesquisa = this.eliminarCaracteresPontuacao(pesquisa);
+        pesquisa = this.eliminarDigitos(pesquisa);
+        String[] parts = pesquisa.split(" ");
+
+        ArrayList<String> palavrasEncontradas = new ArrayList<>();
+        ContagemPalavra[] temp = new ContagemPalavra[parts.length];
+        int indiceQ = 0;
+        for(String s : parts){
+            if(!palavrasEncontradas.contains(s)){
+                temp[indiceQ] = new ContagemPalavra(s, 1);
+                indiceQ++;
+                palavrasEncontradas.add(s);
+            }else{
+                int indicePalavra = findIndicePalavra(s, temp);
+                temp[indicePalavra].setContagem(temp[indicePalavra].getContagem() + 1);
+            }
+        }
+        q = new ContagemPalavra[palavrasEncontradas.size()];
+        for(int i = 0; i < q.length; i++){
+            q[i] = temp[i];
+        }
+    }
+
+    private int findIndicePalavra(String s, ContagemPalavra[] temp) {
+        for(int i = 0; i < temp.length; i++){
+            if(temp[i] != null && s.equals(temp[i].getPalavra())){
+                return i;
+            }
+        }
+        return -1;
     }
 
 
@@ -105,11 +146,11 @@ public class Pesquisa {
         this.m = m;
     }
 
-    public String[] getQ() {
+    public ContagemPalavra[] getQ() {
         return q;
     }
 
-    public void setQ(String[] q) {
+    public void setQ(ContagemPalavra[] q) {
         this.q = q;
     }
 
