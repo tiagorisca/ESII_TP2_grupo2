@@ -54,6 +54,7 @@ public class PesquisaTest {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");
         p.definirMatrizM();
         String palavra = "testar";
+        System.out.print(p.getM()[0][0].getPalavra());
         assertEquals(palavra, p.getM()[0][0].getPalavra());
     }
 
