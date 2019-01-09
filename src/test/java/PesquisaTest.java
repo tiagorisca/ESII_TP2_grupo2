@@ -1,3 +1,4 @@
+import Core.ContagemPalavra;
 import Core.Pesquisa;
 import LeituraFicheiros.LeituraDocumentos;
 import org.junit.jupiter.api.Test;
@@ -5,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PesquisaTest {
 
@@ -112,12 +114,36 @@ public class PesquisaTest {
         assertEquals(expected[2], p.getQ()[2].getContagem());
     }
 
+    //Testar metodo de verificacaoSemelhanca, verificar o calculo de equaçao
     @Test
     public void testId_TP11() throws IOException {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizQ("Teste");
         p.definirMatrizM();
-        double calculo = p.getM()[0][0].getContagem() * (1 + java.lang.Math.log10(3 / 2));
+        p.verificacaoSemelhanca();
+        double calculo = p.getM()[0][0].getContagem() * (java.lang.Math.log10((3.0) / (2.0)));
         assertEquals(calculo, p.getM()[0][0].getValor());
+    }
 
+    //Verificar se o grau de semelhança é superior a 0 se ouver grau de semelhança entre os ficheiros e a pesquisa
+    @Test
+    public void testId_TP12() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizM();
+        p.definirMatrizQ("Testar documento do tipo: txt");
+        p.verificacaoSemelhanca();
+        p.grauSemelhanca();
+        assertTrue(0 < p.getGrauSim()[0]);
+    }
+
+    //Verificar se o grau de semelhança é 0 se não ouver grau de semelhança entre os ficheiros e a pesquisa
+    @Test
+    public void testId_TP13() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizM();
+        p.definirMatrizQ("Testar documento do tipo: txt");
+        p.verificacaoSemelhanca();
+        p.grauSemelhanca();
+        assertEquals(0 , p.getGrauSim()[2]);
     }
 }

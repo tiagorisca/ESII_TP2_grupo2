@@ -11,14 +11,18 @@ public class Pesquisa {
     LeituraDocumentos ld;
     private ContagemPalavra m[][];
     private ContagemPalavra q[];
+    private double grauSim[];
 
     public Pesquisa(String path){
         ld = new LeituraDocumentos(path);
+        grauSim = new double[ld.getNumDocs()];
     }
 
     public String[] pesquisar(String pesquisa, TiposPesquisa tipo_pesquisa, int input) throws IOException {
         definirMatrizQ(pesquisa);
         definirMatrizM();
+        verificacaoSemelhanca();
+        grauSemelhanca();
         return new String[1]; //temporario
     }
 
@@ -76,7 +80,6 @@ public class Pesquisa {
             }
             numDoc++;
         }
-        verificacaoSemelhanca();
     }
 
     private int getIndicePalavra(String palavra, int numDoc) {
@@ -88,9 +91,27 @@ public class Pesquisa {
         return -1;
     }
 
+    private int getIndicePalavraQ(String palavra) {
+        for(int i=0; i<q.length; i++){
+            if(q[i] != null && q[i].getPalavra().equals(palavra)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
     private boolean contemPalavra(String palavra, int numDoc) {
         for(int i=0; i<m[numDoc].length; i++){
             if(m[numDoc][i] != null && m[numDoc][i].getPalavra().equals(palavra)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private boolean contemPalavraEmArrayQ(String palavra) {
+        for(int i=0; i<q.length; i++){
+            if(q[i] != null && q[i].getPalavra().equals(palavra)){
                 return true;
             }
         }
@@ -130,10 +151,44 @@ public class Pesquisa {
                     if(np == 0){
                         m[i][j].setValor(0);
                     }else{
-                        m[i][j].setValor(m[i][j].getContagem() * (1 + java.lang.Math.log10(n / np)));
+                        m[i][j].setValor(m[i][j].getContagem() * (1.0 + java.lang.Math.log10(((n*1.0) / (np*1.0)))));
                     }
                 }
             }
+        }
+    }
+
+    public void grauSemelhanca(){
+
+        for(int i=0; i<ld.getNumDocs(); i++) {
+            double sum1 = 0;
+            double sum2 = 0;
+            double sum3 = 0;
+            for (int j = 0; j < m[i].length; j++) {
+                try {
+                    if (contemPalavraEmArrayQ(m[i][j].getPalavra())) {
+                        int countPalavrasQ = q[this.getIndicePalavraQ(m[i][j].getPalavra())].getContagem();
+                        sum1 += m[i][j].getValor() * countPalavrasQ;
+                        sum2 += Math.pow(m[i][j].getValor(), 2);
+                        sum3 += Math.pow(countPalavrasQ, 2);
+                    } else {
+                        sum1 += m[i][j].getValor() * 0;
+                        sum2 += Math.pow(m[i][j].getValor(), 2);
+                        sum3 += Math.pow(0, 2);
+                    }
+                } catch (NullPointerException | ArrayIndexOutOfBoundsException e) {
+
+                }
+            }
+            try {
+                grauSim[i] = (sum1 * 1.0) / (Math.sqrt(sum2 * 1.0) * Math.sqrt(sum3 * 1.0));
+                if (Double.isInfinite(grauSim[i]) || Double.isNaN(grauSim[i])){
+                    throw new ArithmeticException();
+                }
+            }catch (ArithmeticException ex){
+                grauSim[i] = 0;
+            }
+
         }
     }
 
@@ -159,5 +214,13 @@ public class Pesquisa {
 
     public void setLd(LeituraDocumentos ld) {
         this.ld = ld;
+    }
+
+    public double[] getGrauSim() {
+        return grauSim;
+    }
+
+    public void setGrauSim(double[] grauSim) {
+        this.grauSim = grauSim;
     }
 }
