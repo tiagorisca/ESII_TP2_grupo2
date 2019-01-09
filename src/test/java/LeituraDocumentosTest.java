@@ -79,7 +79,7 @@ public class LeituraDocumentosTest {
         LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TB3/");
         String[] ler = ld.lerDocumentos();
         System.out.print(ler[0]);
-        assertEquals("Testar documento do tipo: pdf \r\n", ler[0]);
+        assertEquals("Testar documento do tipo: pdf", ler[0]);
     }
 
     /**
