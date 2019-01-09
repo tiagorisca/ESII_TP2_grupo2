@@ -111,4 +111,13 @@ public class PesquisaTest {
         assertEquals(expected[1], p.getQ()[1].getContagem());
         assertEquals(expected[2], p.getQ()[2].getContagem());
     }
+
+    @Test
+    public void testId_TP11() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizM();
+        double calculo = p.getM()[0][0].getContagem() * (1 + java.lang.Math.log10(3 / 2));
+        assertEquals(calculo, p.getM()[0][0].getValor());
+
+    }
 }

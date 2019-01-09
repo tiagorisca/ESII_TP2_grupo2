@@ -131,7 +131,6 @@ public class Pesquisa {
                         m[i][j].setValor(0);
                     }else{
                         m[i][j].setValor(m[i][j].getContagem() * (1 + java.lang.Math.log10(n / np)));
-                        System.out.println(m[i][j].getValor());
                     }
                 }
             }
