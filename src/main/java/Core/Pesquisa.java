@@ -72,11 +72,11 @@ public class Pesquisa {
             for(String palavra : parts){
                 if(!contemPalavra(palavra, numDoc)){
                     m[numDoc][indPalavra] = new ContagemPalavra(palavra, 1);
+                    indPalavra++;
                 }else{
                     int indiceExistente = getIndicePalavra(palavra, numDoc);
                     m[numDoc][indiceExistente].setContagem(m[numDoc][indiceExistente].getContagem() + 1);
                 }
-                indPalavra++;
             }
             numDoc++;
         }
@@ -188,7 +188,6 @@ public class Pesquisa {
             }catch (ArithmeticException ex){
                 grauSim[i] = 0;
             }
-
         }
     }
 
