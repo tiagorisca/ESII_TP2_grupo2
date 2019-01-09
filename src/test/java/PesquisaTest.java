@@ -53,9 +53,9 @@ public class PesquisaTest {
     public void testId_TP7() throws IOException {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");
         p.definirMatrizM();
-        String palavra = "testar";
-        System.out.print(p.getM()[0][0].getPalavra());
-        assertEquals(palavra, p.getM()[0][0].getPalavra());
+        String palavra = "teste";
+        System.out.print(p.getM()[3][0].getPalavra());
+        assertEquals(palavra, p.getM()[3][0].getPalavra());
     }
 
     //Testar se o método definirMatrizM() guarda a contagem da primeira palavra do primeiro documento no indice certo
