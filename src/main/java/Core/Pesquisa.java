@@ -16,8 +16,8 @@ public class Pesquisa {
     }
 
     public String[] pesquisar(String pesquisa, TiposPesquisa tipo_pesquisa, int input) throws IOException {
-        definirMatrizM();
         definirMatrizQ(pesquisa);
+        definirMatrizM();
         return new String[1]; //temporario
     }
 
