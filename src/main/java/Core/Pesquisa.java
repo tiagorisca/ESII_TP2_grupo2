@@ -1,5 +1,6 @@
 package Core;
 
+import Enums.TiposPesquisa;
 import LeituraFicheiros.LeituraDocumentos;
 
 import java.io.IOException;
@@ -12,6 +13,18 @@ public class Pesquisa {
 
     public Pesquisa(String path){
         ld = new LeituraDocumentos(path);
+    }
+
+    public String[] pesquisar(String pesquisa, TiposPesquisa tipo_pesquisa, int input) throws IOException {
+        definirMatrizM();
+        definirMatrizQ(pesquisa);
+        return new String[1]; //temporario
+    }
+
+    public void definirMatrizQ(String pesquisa) {
+        pesquisa = this.eliminarCaracteresPontuacao(pesquisa);
+        pesquisa = this.eliminarDigitos(pesquisa);
+        q = pesquisa.split(" ");
     }
 
 

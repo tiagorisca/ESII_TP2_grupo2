@@ -88,4 +88,15 @@ public class PesquisaTest {
         p.definirMatrizM();
         assertEquals(3, p.getM()[0][0].getContagem());
     }
+
+    //Testar se o método definirMatrizQ() guarda as palavras pesquisadas no array
+    @Test
+    public void testId_TP9() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizQ("ola tudo bem");
+        String[] expected = {"ola", "tudo", "bem"};
+        assertEquals(expected[0], p.getQ()[0]);
+        assertEquals(expected[1], p.getQ()[1]);
+        assertEquals(expected[2], p.getQ()[2]);
+    }
 }
