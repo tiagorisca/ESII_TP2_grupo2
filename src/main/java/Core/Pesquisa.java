@@ -76,6 +76,7 @@ public class Pesquisa {
             }
             numDoc++;
         }
+        verificacaoSemelhanca();
     }
 
     private int getIndicePalavra(String palavra, int numDoc) {
@@ -117,6 +118,24 @@ public class Pesquisa {
     public String eliminarDigitos(String text){
         String texto = text.replaceAll("[0-9]+","");
         return texto;
+    }
+
+    public void verificacaoSemelhanca() throws IOException {
+
+        int n = ld.getNumDocs();
+        for(int i = 0; i<n; i++){
+            for (int j = 0; j < m[i].length; j++) {
+                if(m[i][j] != null) {
+                    int np = contarNumDocsContemPalavra(ld.lerDocumentos(), m[i][j].getPalavra());
+                    if(np == 0){
+                        m[i][j].setValor(0);
+                    }else{
+                        m[i][j].setValor(m[i][j].getContagem() * (1 + java.lang.Math.log10(n / np)));
+                        System.out.println(m[i][j].getValor());
+                    }
+                }
+            }
+        }
     }
 
     public ContagemPalavra[][] getM() {
