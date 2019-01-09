@@ -78,7 +78,7 @@ public class LeituraDocumentosTest {
     public void testId_TB3() throws IOException {
         LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TB3/");
         String[] ler = ld.lerDocumentos();
-
+        System.out.print(ler[0]);
         assertEquals("Testar documento do tipo: pdf \r\n", ler[0]);
     }
 
