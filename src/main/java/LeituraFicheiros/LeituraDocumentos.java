@@ -1,7 +1,5 @@
 package LeituraFicheiros;
 
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 
@@ -12,7 +10,6 @@ import java.util.List;
 public class LeituraDocumentos {
     private final String FORMATO_TXT = "txt";
     private final String FORMATO_DOCX = "docx";
-    private final String FORMATO_PDF = "pdf";
 
     int numDocs ;
     String path ;
@@ -51,9 +48,6 @@ public class LeituraDocumentos {
                     break;
                 case FORMATO_DOCX:
                     conteudosDocumentos[i] = lerDoc(listaFicheiros[i].getName());
-                    break;
-                case FORMATO_PDF:
-                    conteudosDocumentos[i] = lerPdf(listaFicheiros[i].getName());
                     break;
                 default:
                     conteudosDocumentos[i] = "";
@@ -110,15 +104,6 @@ public class LeituraDocumentos {
             e.printStackTrace();
         }
         return "";
-    }
-
-    private String lerPdf(String name) throws IOException {
-        PDDocument document = PDDocument.load(new File(path + name));
-        PDFTextStripper stripper = new PDFTextStripper();
-        String text = stripper.getText(document);
-        document.close();
-        vefiricarMaxPalavras(text);
-        return text;
     }
 
     private void vefiricarMaxPalavras(String text) {

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b07039d-dc96-47c6-bcdc-bbda500f2d6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/filesTestes/TB1/ficheirotest 2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,13 +84,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="1032" />
+          <entry key="java" value="1034" />
           <entry key="txt" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1032" />
+          <entry key="JAVA" value="1034" />
           <entry key="PLAIN_TEXT" value="112" />
         </counts>
       </usages-collector>
@@ -210,8 +209,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="85" column="45" lean-forward="true" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
+            <state relative-caret-position="185">
+              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -617,7 +616,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -804,7 +803,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547045891721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547045951679" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/xmlbeans-3.0.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -835,7 +834,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PesquisaTest.testId_TP7">
+  <component name="RunManager" selected="JUnit.LeituraDocumentosTest.testId_TB3">
     <configuration name="Trabalho2_ES2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -854,10 +853,12 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="LeituraDocumentosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeituraDocumentosTest.testId_TB3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trabalho2_ES2_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LeituraDocumentosTest" />
+      <option name="METHOD_NAME" value="testId_TB3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -893,19 +894,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LeituraDocumentosTest" />
       <item itemvalue="Gradle.Trabalho2_ES2 [build]" />
       <item itemvalue="JUnit.PesquisaTest.testId_TP6" />
       <item itemvalue="JUnit.PesquisaTest.testId_TP3" />
       <item itemvalue="JUnit.PesquisaTest.testId_TP7" />
+      <item itemvalue="JUnit.LeituraDocumentosTest.testId_TB3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeituraDocumentosTest.testId_TB3" />
         <item itemvalue="JUnit.PesquisaTest.testId_TP7" />
         <item itemvalue="Gradle.Trabalho2_ES2 [build]" />
         <item itemvalue="JUnit.PesquisaTest.testId_TP3" />
         <item itemvalue="JUnit.PesquisaTest.testId_TP6" />
-        <item itemvalue="JUnit.LeituraDocumentosTest" />
       </list>
     </recent_temporary>
   </component>
@@ -923,12 +924,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeituraDocumentosTest - 2018.12.31 at 19h 34m 58s.xml">
-      <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeituraDocumentosTest - 2018.12.31 at 19h 35m 16s.xml">
-      <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LeituraDocumentosTest - 2019.01.03 at 16h 07m 02s.xml">
       <configuration name="LeituraDocumentosTest" configurationId="JUnit" />
     </history-entry>
@@ -953,6 +948,12 @@
     <history-entry file="PesquisaTest_testId_TP7 - 2019.01.09 at 14h 50m 52s.xml">
       <configuration name="PesquisaTest.testId_TP7" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LeituraDocumentosTest_testId_TB3 - 2019.01.09 at 15h 00m 29s.xml">
+      <configuration name="LeituraDocumentosTest.testId_TB3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeituraDocumentosTest_testId_TB3 - 2019.01.09 at 15h 01m 08s.xml">
+      <configuration name="LeituraDocumentosTest.testId_TB3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -966,7 +967,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -976,12 +977,12 @@
       <window_info id="Learn" order="7" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848944" weight="0.26885247" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848944" visible="true" weight="0.4852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" visible="true" weight="0.33934426" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.33934426" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.31639344" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Dependency Viewer" order="10" weight="0.32952693" />
@@ -1233,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="85" column="45" lean-forward="true" selection-start-line="85" selection-start-column="45" selection-end-line="85" selection-end-column="45" />
+        <state relative-caret-position="185">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

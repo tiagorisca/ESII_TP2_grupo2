@@ -34,7 +34,6 @@ public class LeituraDocumentosTest {
 
         assertEquals("Testar documento do tipo: txt", ler[0]);
         assertEquals("Testar documento do tipo: docx", ler[1]);
-        assertEquals("Testar documento do tipo: pdf \r\n", ler[2]);
     }
 
 
@@ -69,21 +68,9 @@ public class LeituraDocumentosTest {
         assertEquals("Ficheiro teste: docx", ler[0]);
     }
 
-    /**
-     * Testar se a leitura é feita corretamente com ficheiros pdf
-     *
-     * @throws IOException
-     */
-    @Test
-    public void testId_TB3() throws IOException {
-        LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TB3/");
-        String[] ler = ld.lerDocumentos();
-        System.out.print(ler[0]);
-        assertEquals("Testar documento do tipo: pdf", ler[0]);
-    }
 
     /**
-     * Testar se a leitura é feita corretamente com ficheiros que não sejam do tipo txt, doc, docx ou pdf
+     * Testar se a leitura é feita corretamente com ficheiros que não sejam do tipo txt, docx
      *
      * @throws IOException
      */

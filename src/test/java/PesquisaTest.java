@@ -45,7 +45,7 @@ public class PesquisaTest {
         LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TP/");
         String[] conteudos = ld.lerDocumentos();
         String palavra = "Testar";
-        assertEquals(p.contarNumDocsContemPalavra(conteudos, palavra), 3);
+        assertEquals(p.contarNumDocsContemPalavra(conteudos, palavra), 2);
     }
 
     //Testar se o método definirMatrizM() guarda a primeira palavra do primeiro documento no indice certo
@@ -54,8 +54,7 @@ public class PesquisaTest {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");
         p.definirMatrizM();
         String palavra = "teste";
-        System.out.print(p.getM()[3][0].getPalavra());
-        assertEquals(palavra, p.getM()[3][0].getPalavra());
+        assertEquals(palavra, p.getM()[2][0].getPalavra());
     }
 
     //Testar se o método definirMatrizM() guarda a contagem da primeira palavra do primeiro documento no indice certo
