@@ -251,7 +251,8 @@ public class Pesquisa {
         return ld.getNomesFicheiros();
     }
 
-    public String[] retornarFicheirosPorLimite(int limite){
+    public String[] retornarFicheirosPorLimite(double input){
+        int limite = (int) input;
         String[] nomes = new String[limite];
         for(int i=0; i<limite; i++){
             nomes[i]=ld.getNomesFicheiros()[i];
