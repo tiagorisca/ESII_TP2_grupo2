@@ -3,7 +3,6 @@ package Demo;
 
 import JFrames.PesquisaJFrame;
 import Core.Pesquisa;
-import LeituraFicheiros.LeituraDocumentos;
 
 import java.io.IOException;
 

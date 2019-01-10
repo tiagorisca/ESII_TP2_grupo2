@@ -194,20 +194,38 @@ public class PesquisaJFrame extends javax.swing.JFrame{
     }
 
     private void Button_pesquisarActionPerformed(java.awt.event.ActionEvent evt) throws IOException {
-        String[] resultados = new String[0];
 
-        try{
-            Double values = Double.parseDouble(TextBox_input.getText());
+        if(TextBox_pesquisa.getText().equals("") ||
+                (TextBox_pesquisa.getForeground() == Color.GRAY &&
+                        TextBox_pesquisa.getText().equals("Pesquisa"))
+        ){
+            JOptionPane.showMessageDialog(null, "Deve de ser introduzido uma pesquisa");
+            return;
+        }
+
+        String[] resultados = new String[0];
 
         switch (ComboBox_tipoPesquisa.getSelectedIndex()){
             case 0:
-                resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.NORMAL, values);
+                resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.NORMAL, -1);
                 break;
             case 1:
-                resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.COM_LIMITE_MAXIMO, values);
+                try{
+                    Double values = Double.parseDouble(TextBox_input.getText());
+                    resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.COM_LIMITE_MAXIMO, values);
+                }catch (Exception c){
+                    JOptionPane.showMessageDialog(null, "Deve de ser introduzido um valor numérico como limite");
+                    return;
+                }
                 break;
             case 2:
-                resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.COM_LIMITE_GRAU, values);
+                try{
+                    Double values = Double.parseDouble(TextBox_input.getText());
+                    resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.COM_LIMITE_GRAU, values);
+                }catch (Exception c){
+                    JOptionPane.showMessageDialog(null, "Deve de ser introduzido um valor numérico como limite");
+                    return;
+                }
                 break;
         }
         DefaultListModel modelo = new DefaultListModel();
@@ -217,9 +235,7 @@ public class PesquisaJFrame extends javax.swing.JFrame{
         }
 
         List_pesquisa.setModel(modelo);
-        }catch (Exception c){
-            System.out.println(c + "Deve de ser introduzido um valor numérico");
-        }
+
         // TODO add your handling code here:
     }
 
