@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LeituraDocumentosTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-10T18:46:38" hostname="Toshiba-PC" time="0.684">
+  <properties/>
+  <testcase name="testId_TB1()" classname="LeituraDocumentosTest" time="0.015"/>
+  <testcase name="testId_TB2()" classname="LeituraDocumentosTest" time="0.631"/>
+  <testcase name="testId_TB4()" classname="LeituraDocumentosTest" time="0.001"/>
+  <testcase name="testId_TP2()" classname="LeituraDocumentosTest" time="0.034"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

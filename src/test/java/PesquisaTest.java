@@ -157,7 +157,18 @@ public class PesquisaTest {
         assertEquals(p.getLd().getNomesFicheiros()[0] , "ficheiro 4.txt");
     }
 
-    //Vereficar se a limitação de ficheiros foi realizada
+    //Verificar se método retornaFicheirosLimiteGrau retorna apenas os ficheiros com grau superior ao indicado
+    @Test
+    public void testId_TP16() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizM();
+        p.definirMatrizQ("teste teste teste");
+        p.verificacaoSemelhanca();
+        p.grauSemelhanca();
+        assertEquals(p.retornarFicheirosLimiteGrau(100).length, 1);
+    }
+
+    //Verificar se a limitação de ficheiros foi realizada
     @Test
     public void testId_TP15() throws IOException {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");

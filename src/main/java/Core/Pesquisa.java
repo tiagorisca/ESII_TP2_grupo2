@@ -4,6 +4,7 @@ import Enums.TiposPesquisa;
 import LeituraFicheiros.LeituraDocumentos;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.text.Normalizer;
 import java.util.ArrayList;
 
@@ -18,7 +19,7 @@ public class Pesquisa {
         grauSim = new double[ld.getNumDocs()];
     }
 
-    public String[] pesquisar(String pesquisa, TiposPesquisa tipo_pesquisa, int input) throws IOException {
+    public String[] pesquisar(String pesquisa, TiposPesquisa tipo_pesquisa, double input) throws IOException {
         definirMatrizQ(pesquisa);
         definirMatrizM();
         verificacaoSemelhanca();
@@ -29,9 +30,27 @@ public class Pesquisa {
             case COM_LIMITE_MAXIMO:
                 return retornarFicheirosPorLimite(input);
             case COM_LIMITE_GRAU:
-                break;
+                return retornarFicheirosLimiteGrau(input);
         }
         return new String[1];
+    }
+
+    public String[] retornarFicheirosLimiteGrau(double input) {
+        int cont = 0;
+        String[] tempFiles = new String[ld.getNumDocs()];
+        for(int i = 0; i<ld.getNumDocs(); i++){
+            if(grauSim[i]*100 >= input){
+                DecimalFormat df = new DecimalFormat("0.00");
+                String grauFormatado = df.format(grauSim[i]*100);
+                tempFiles[cont] = ld.getNomesFicheiros()[i] + " (Grau de similaridade: " + grauFormatado + "%)";
+                cont++;
+            }
+        }
+        String[] resultados = new String[cont];
+        for(int i = 0; i<cont; i++){
+            resultados[i] = tempFiles[i];
+        }
+        return resultados;
     }
 
     public void definirMatrizQ(String pesquisa) {
