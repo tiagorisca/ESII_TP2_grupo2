@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PesquisaTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-01-10T18:02:52" hostname="DESKTOP-SJLNRU1" time="1.493">
+<testsuite name="PesquisaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-10T18:39:17" hostname="DESKTOP-U8IOL9D" time="0.642">
   <properties/>
-  <testcase name="testId_TP10()" classname="PesquisaTest" time="0.033"/>
-  <testcase name="testId_TP11()" classname="PesquisaTest" time="0.919"/>
-  <testcase name="testId_TP12()" classname="PesquisaTest" time="0.278"/>
-  <testcase name="testId_TP13()" classname="PesquisaTest" time="0.162"/>
-  <testcase name="testId_TB5()" classname="PesquisaTest" time="0.011"/>
-  <testcase name="testId_TB6()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TB7()" classname="PesquisaTest" time="0.002"/>
-  <testcase name="testId_TP3()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.002"/>
-  <testcase name="testId_TP5()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TP6()" classname="PesquisaTest" time="0.015"/>
-  <testcase name="testId_TP7()" classname="PesquisaTest" time="0.017"/>
-  <testcase name="testId_TP8()" classname="PesquisaTest" time="0.02"/>
-  <testcase name="testId_TP9()" classname="PesquisaTest" time="0.011"/>
-  <system-out><![CDATA[testar2
-documento2
-do2
-tipo:2
-txt1
-testar2
-documento2
-do2
-tipo:2
-docx1
-teste1
-testar2
-documento2
-do2
-tipo:2
-txt1
-testar2
-documento2
-do2
-tipo:2
-docx1
-teste1
-testar2
-documento2
-do2
-tipo:2
-txt1
-testar2
-documento2
-do2
-tipo:2
-docx1
-teste1
-]]></system-out>
+  <testcase name="testId_TP15()" classname="PesquisaTest" time="0.642"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
