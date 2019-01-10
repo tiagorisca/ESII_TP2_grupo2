@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/main"/>
+	<lib name="activation-1.1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/activation-1.1.1.jar!/"/>
+	</lib>
+	<lib name="commons-codec-1.11.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/commons-codec-1.11.jar!/"/>
+	</lib>
+	<lib name="commons-collections4-4.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/commons-collections4-4.2.jar!/"/>
+	</lib>
+	<lib name="commons-compress-1.18.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/commons-compress-1.18.jar!/"/>
+	</lib>
+	<lib name="commons-logging-1.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/"/>
+	</lib>
+	<lib name="commons-math3-3.6.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/commons-math3-3.6.1.jar!/"/>
+	</lib>
+	<lib name="curvesapi-1.05.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/curvesapi-1.05.jar!/"/>
+	</lib>
+	<lib name="jaxb-api-2.3.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jaxb-api-2.3.0.jar!/"/>
+	</lib>
+	<lib name="jaxb-core-2.3.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jaxb-core-2.3.0.1.jar!/"/>
+	</lib>
+	<lib name="jaxb-impl-2.3.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jaxb-impl-2.3.0.1.jar!/"/>
+	</lib>
+	<lib name="junit-4.12.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/"/>
+	</lib>
+	<lib name="log4j-1.2.17.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/"/>
+	</lib>
+	<lib name="poi-4.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/poi-4.0.1.jar!/"/>
+	</lib>
+	<lib name="poi-examples-4.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/poi-examples-4.0.1.jar!/"/>
+	</lib>
+	<lib name="poi-excelant-4.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/poi-excelant-4.0.1.jar!/"/>
+	</lib>
+	<lib name="poi-ooxml-4.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/poi-ooxml-4.0.1.jar!/"/>
+	</lib>
+	<lib name="poi-ooxml-schemas-4.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/poi-ooxml-schemas-4.0.1.jar!/"/>
+	</lib>
+	<lib name="poi-scratchpad-4.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/poi-scratchpad-4.0.1.jar!/"/>
+	</lib>
+	<lib name="xmlbeans-3.0.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/xmlbeans-3.0.2.jar!/"/>
+	</lib>
+</component>

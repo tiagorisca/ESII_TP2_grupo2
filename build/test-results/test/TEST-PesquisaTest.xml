@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PesquisaTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-01-10T19:47:32" hostname="DESKTOP-SJLNRU1" time="1.185">
+<testsuite name="PesquisaTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-01-10T22:21:11" hostname="DESKTOP-U8IOL9D" time="1.388">
   <properties/>
-  <testcase name="testId_TP10()" classname="PesquisaTest" time="0.007"/>
-  <testcase name="testId_TP11()" classname="PesquisaTest" time="0.274"/>
-  <testcase name="testId_TP12()" classname="PesquisaTest" time="0.237"/>
-  <testcase name="testId_TP13()" classname="PesquisaTest" time="0.141"/>
-  <testcase name="testId_TP14()" classname="PesquisaTest" time="0.146"/>
-  <testcase name="testId_TP15()" classname="PesquisaTest" time="0.131"/>
-  <testcase name="testId_TP16()" classname="PesquisaTest" time="0.144"/>
-  <testcase name="testId_TB5()" classname="PesquisaTest" time="0.013"/>
-  <testcase name="testId_TB6()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TB7()" classname="PesquisaTest" time="0.001"/>
+  <testcase name="testId_TP10()" classname="PesquisaTest" time="0.017"/>
+  <testcase name="testId_TP11()" classname="PesquisaTest" time="0.68"/>
+  <testcase name="testId_TP12()" classname="PesquisaTest" time="0.16"/>
+  <testcase name="testId_TP13()" classname="PesquisaTest" time="0.124"/>
+  <testcase name="testId_TP14()" classname="PesquisaTest" time="0.108"/>
+  <testcase name="testId_TP15()" classname="PesquisaTest" time="0.113"/>
+  <testcase name="testId_TP16()" classname="PesquisaTest" time="0.105"/>
+  <testcase name="testId_TB5()" classname="PesquisaTest" time="0.01"/>
+  <testcase name="testId_TB6()" classname="PesquisaTest" time="0.002"/>
+  <testcase name="testId_TB7()" classname="PesquisaTest" time="0.002"/>
   <testcase name="testId_TP3()" classname="PesquisaTest" time="0.002"/>
-  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.003"/>
-  <testcase name="testId_TP5()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TP6()" classname="PesquisaTest" time="0.026"/>
-  <testcase name="testId_TP7()" classname="PesquisaTest" time="0.014"/>
-  <testcase name="testId_TP8()" classname="PesquisaTest" time="0.013"/>
-  <testcase name="testId_TP9()" classname="PesquisaTest" time="0.002"/>
+  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.002"/>
+  <testcase name="testId_TP5()" classname="PesquisaTest" time="0.002"/>
+  <testcase name="testId_TP6()" classname="PesquisaTest" time="0.019"/>
+  <testcase name="testId_TP7()" classname="PesquisaTest" time="0.018"/>
+  <testcase name="testId_TP8()" classname="PesquisaTest" time="0.014"/>
+  <testcase name="testId_TP9()" classname="PesquisaTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
