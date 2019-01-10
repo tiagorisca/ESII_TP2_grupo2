@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="PesquisaTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-01-10T18:46:39" hostname="Toshiba-PC" time="1.178">
   <properties/>
   <testcase name="testId_TP10()" classname="PesquisaTest" time="0.007"/>
@@ -17,6 +18,11 @@
   <testcase name="testId_TP7()" classname="PesquisaTest" time="0.016"/>
   <testcase name="testId_TP8()" classname="PesquisaTest" time="0.014"/>
   <testcase name="testId_TP9()" classname="PesquisaTest" time="0.002"/>
+=======
+<testsuite name="PesquisaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-10T18:39:17" hostname="DESKTOP-U8IOL9D" time="0.642">
+  <properties/>
+  <testcase name="testId_TP15()" classname="PesquisaTest" time="0.642"/>
+>>>>>>> master
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

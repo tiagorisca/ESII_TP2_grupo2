@@ -167,4 +167,16 @@ public class PesquisaTest {
         p.grauSemelhanca();
         assertEquals(p.retornarFicheirosLimiteGrau(100).length, 1);
     }
+
+    //Verificar se a limitação de ficheiros foi realizada
+    @Test
+    public void testId_TP15() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizM();
+        p.definirMatrizQ("teste");
+        p.verificacaoSemelhanca();
+        p.grauSemelhanca();
+        String[] values = p.retornarFicheirosPorLimite(2);
+        assertEquals(2, values.length);
+    }
 }
