@@ -118,10 +118,9 @@ public class PesquisaTest {
     @Test
     public void testId_TP11() throws IOException {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");
-        p.definirMatrizQ("Teste");
         p.definirMatrizM();
         p.verificacaoSemelhanca();
-        double calculo = p.getM()[0][0].getContagem() * (java.lang.Math.log10((3.0) / (2.0)));
+        double calculo = p.getM()[0][0].getContagem() * (1.0 + java.lang.Math.log10((3.0) / (2.0)));
         assertEquals(calculo, p.getM()[0][0].getValor());
     }
 
@@ -130,7 +129,7 @@ public class PesquisaTest {
     public void testId_TP12() throws IOException {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");
         p.definirMatrizM();
-        p.definirMatrizQ("Testar documento do tipo: txt");
+        p.definirMatrizQ("teste teste teste");
         p.verificacaoSemelhanca();
         p.grauSemelhanca();
         assertTrue(0 < p.getGrauSim()[0]);
@@ -141,9 +140,20 @@ public class PesquisaTest {
     public void testId_TP13() throws IOException {
         Pesquisa p = new Pesquisa("files/filesTestes/TP/");
         p.definirMatrizM();
-        p.definirMatrizQ("Testar documento do tipo: txt");
+        p.definirMatrizQ("adoro");
         p.verificacaoSemelhanca();
         p.grauSemelhanca();
         assertEquals(0 , p.getGrauSim()[2]);
+    }
+
+    //Verificar se o grau de semelhança é ordenado
+    @Test
+    public void testId_TP14() throws IOException {
+        Pesquisa p = new Pesquisa("files/filesTestes/TP/");
+        p.definirMatrizM();
+        p.definirMatrizQ("teste");
+        p.verificacaoSemelhanca();
+        p.grauSemelhanca();
+        assertEquals(p.getLd().getNomesFicheiros()[0] , "ficheiro 4.txt");
     }
 }

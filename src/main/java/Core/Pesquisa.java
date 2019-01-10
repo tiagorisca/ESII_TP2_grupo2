@@ -23,7 +23,15 @@ public class Pesquisa {
         definirMatrizM();
         verificacaoSemelhanca();
         grauSemelhanca();
-        return new String[1]; //temporario
+        switch(tipo_pesquisa){
+            case NORMAL:
+                return retornarTodosOrdemGrau();
+            case COM_LIMITE_MAXIMO:
+                break;
+            case COM_LIMITE_GRAU:
+                break;
+        }
+        return new String[1];
     }
 
     public void definirMatrizQ(String pesquisa) {
@@ -189,6 +197,39 @@ public class Pesquisa {
                 grauSim[i] = 0;
             }
         }
+        ordenarFicheirosPorGrau();
+    }
+
+    public void ordenarFicheirosPorGrau(){
+
+        String[] tempNomes = new String[ld.getNumDocs()];
+        double[] tempGraus = new double[ld.getNumDocs()];
+        ArrayList<Integer> indicesUsados = new ArrayList<>();
+        int contador = 0;
+
+        while(contador<ld.getNumDocs()){
+            int indiceMaiorValor = 0;
+            double maiorValor = 0;
+            for(int i=0; i<ld.getNumDocs(); i++){
+                if(!indicesUsados.contains(i)){
+                    if(grauSim[i] >= maiorValor){
+                        maiorValor = grauSim[i];
+                        indiceMaiorValor = i;
+                    }
+                }
+            }
+            tempNomes[contador] = ld.getNomesFicheiros()[indiceMaiorValor];
+            tempGraus[contador] = maiorValor;
+            indicesUsados.add(indiceMaiorValor);
+            contador++;
+        }
+        ld.setNomesFicheiros(tempNomes);
+        grauSim = tempGraus;
+    }
+
+
+    public String[] retornarTodosOrdemGrau(){
+        return ld.getNomesFicheiros();
     }
 
     public ContagemPalavra[][] getM() {
