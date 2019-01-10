@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b07039d-dc96-47c6-bcdc-bbda500f2d6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Core/Pesquisa.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Core/Pesquisa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Core/Pesquisa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/filesTestes/TP/ficheiro 4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/filesTestes/TP/ficheiro 4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Core/Pesquisa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core/Pesquisa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PesquisaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PesquisaTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -77,29 +73,29 @@
           <entry key="ficheiro 4" value="1" />
           <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="10" />
-          <entry key="txt" value="37" />
+          <entry key="java" value="14" />
+          <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="10" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="JAVA" value="14" />
+          <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="3159" />
-          <entry key="txt" value="300" />
+          <entry key="java" value="4446" />
+          <entry key="txt" value="317" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3159" />
-          <entry key="PLAIN_TEXT" value="311" />
+          <entry key="JAVA" value="4446" />
+          <entry key="PLAIN_TEXT" value="328" />
         </counts>
       </usages-collector>
     </session>
@@ -188,39 +184,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Core/Pesquisa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="189" column="13" selection-start-line="189" selection-start-column="13" selection-end-line="189" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="230" column="45" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6216#6217#0" expanded="true" />
-                <element signature="e#6240#6241#0" expanded="true" />
-                <element signature="e#6287#6288#0" expanded="true" />
-                <element signature="e#6313#6314#0" expanded="true" />
-                <element signature="e#6352#6353#0" expanded="true" />
-                <element signature="e#6376#6377#0" expanded="true" />
-                <element signature="e#6421#6422#0" expanded="true" />
-                <element signature="e#6447#6448#0" expanded="true" />
-                <element signature="e#6487#6488#0" expanded="true" />
-                <element signature="e#6512#6513#0" expanded="true" />
-                <element signature="e#6559#6560#0" expanded="true" />
-                <element signature="e#6587#6588#0" expanded="true" />
-                <element signature="e#6623#6624#0" expanded="true" />
-                <element signature="e#6653#6654#0" expanded="true" />
-                <element signature="e#6701#6702#0" expanded="true" />
-                <element signature="e#6739#6740#0" expanded="true" />
+                <element signature="e#7811#7812#0" expanded="true" />
+                <element signature="e#7925#7926#0" expanded="true" />
+                <element signature="e#7949#7950#0" expanded="true" />
+                <element signature="e#7996#7997#0" expanded="true" />
+                <element signature="e#8022#8023#0" expanded="true" />
+                <element signature="e#8061#8062#0" expanded="true" />
+                <element signature="e#8085#8086#0" expanded="true" />
+                <element signature="e#8130#8131#0" expanded="true" />
+                <element signature="e#8156#8157#0" expanded="true" />
+                <element signature="e#8196#8197#0" expanded="true" />
+                <element signature="e#8221#8222#0" expanded="true" />
+                <element signature="e#8268#8269#0" expanded="true" />
+                <element signature="e#8296#8297#0" expanded="true" />
+                <element signature="e#8332#8333#0" expanded="true" />
+                <element signature="e#8362#8363#0" expanded="true" />
+                <element signature="e#8410#8411#0" expanded="true" />
+                <element signature="e#8448#8449#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/filesTestes/TP/ficheiro 1.txt">
+        <entry file="file://$PROJECT_DIR$/files/filesTestes/TP/ficheiro 4.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+              <caret selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Enums/TiposPesquisa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PesquisaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="148" column="50" selection-start-line="148" selection-start-column="50" selection-end-line="148" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -228,10 +258,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="246">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3816#3817#0" expanded="true" />
+                <element signature="e#3853#3854#0" expanded="true" />
+                <element signature="e#3915#3916#0" expanded="true" />
+                <element signature="e#3967#3968#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -240,20 +274,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JFrames/PesquisaJFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="367">
               <caret line="36" column="100" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PesquisaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -592,13 +614,13 @@
         <option value="$PROJECT_DIR$/files/documentos/ficheiro 2.txt" />
         <option value="$PROJECT_DIR$/files/filesTestes/TB5/ficheiroTest 6.txt" />
         <option value="$PROJECT_DIR$/files/filesTestes/TB5_2/ficheiroTest 5_2.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java" />
         <option value="$PROJECT_DIR$/src/test/java/LeituraDocumentosTest.java" />
         <option value="$PROJECT_DIR$/files/documentos/ficheiro 1.txt" />
-        <option value="$PROJECT_DIR$/files/filesTestes/TP/ficheiro 4.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/PesquisaTest.java" />
         <option value="$PROJECT_DIR$/files/filesTestes/TP/ficheiro 1.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java" />
+        <option value="$PROJECT_DIR$/files/filesTestes/TP/ficheiro 4.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Core/Pesquisa.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PesquisaTest.java" />
       </list>
     </option>
   </component>
@@ -753,7 +775,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547066575555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547142839513" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/xmlbeans-3.0.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -784,29 +806,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PesquisaTest.testId_TP13">
-    <configuration name="Trabalho2_ES2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="PesquisaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PesquisaTest.testId_TP14">
+    <configuration name="PesquisaTest.testId_TB7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trabalho2_ES2_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PesquisaTest" />
+      <option name="METHOD_NAME" value="testId_TB7" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -831,30 +837,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PesquisaTest.testId_TP13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PesquisaTest.testId_TP14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trabalho2_ES2_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PesquisaTest" />
-      <option name="METHOD_NAME" value="testId_TP13" />
+      <option name="METHOD_NAME" value="testId_TP14" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PesquisaTest.testId_TP7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trabalho2_ES2_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PesquisaTest" />
+      <option name="METHOD_NAME" value="testId_TP7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.Trabalho2_ES2 [build]" />
+      <item itemvalue="JUnit.PesquisaTest.testId_TB7" />
+      <item itemvalue="JUnit.PesquisaTest.testId_TP7" />
       <item itemvalue="JUnit.PesquisaTest.testId_TP11" />
       <item itemvalue="JUnit.PesquisaTest.testId_TP12" />
-      <item itemvalue="JUnit.PesquisaTest" />
-      <item itemvalue="JUnit.PesquisaTest.testId_TP13" />
+      <item itemvalue="JUnit.PesquisaTest.testId_TP14" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PesquisaTest.testId_TP13" />
+        <item itemvalue="JUnit.PesquisaTest.testId_TP14" />
         <item itemvalue="JUnit.PesquisaTest.testId_TP12" />
-        <item itemvalue="JUnit.PesquisaTest" />
         <item itemvalue="JUnit.PesquisaTest.testId_TP11" />
-        <item itemvalue="Gradle.Trabalho2_ES2 [build]" />
+        <item itemvalue="JUnit.PesquisaTest.testId_TP7" />
+        <item itemvalue="JUnit.PesquisaTest.testId_TB7" />
       </list>
     </recent_temporary>
   </component>
@@ -872,35 +888,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PesquisaTest_testId_TP12 - 2019.01.09 at 19h 31m 38s.xml">
+    <history-entry file="PesquisaTest_testId_TP11 - 2019.01.10 at 17h 57m 33s.xml">
+      <configuration name="PesquisaTest.testId_TP11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PesquisaTest_testId_TP11 - 2019.01.10 at 17h 58m 59s.xml">
+      <configuration name="PesquisaTest.testId_TP11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PesquisaTest_testId_TP11 - 2019.01.10 at 17h 59m 36s.xml">
+      <configuration name="PesquisaTest.testId_TP11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PesquisaTest_testId_TP11 - 2019.01.10 at 18h 00m 49s.xml">
+      <configuration name="PesquisaTest.testId_TP11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PesquisaTest_testId_TP11 - 2019.01.10 at 18h 02m 11s.xml">
+      <configuration name="PesquisaTest.testId_TP11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PesquisaTest_testId_TP11 - 2019.01.10 at 18h 02m 30s.xml">
+      <configuration name="PesquisaTest.testId_TP11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PesquisaTest_testId_TP12 - 2019.01.10 at 18h 05m 49s.xml">
       <configuration name="PesquisaTest.testId_TP12" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PesquisaTest_testId_TP12 - 2019.01.09 at 19h 31m 52s.xml">
+    <history-entry file="PesquisaTest_testId_TP12 - 2019.01.10 at 18h 06m 24s.xml">
       <configuration name="PesquisaTest.testId_TP12" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PesquisaTest_testId_TP12 - 2019.01.09 at 19h 38m 12s.xml">
+    <history-entry file="PesquisaTest_testId_TP12 - 2019.01.10 at 18h 07m 01s.xml">
       <configuration name="PesquisaTest.testId_TP12" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PesquisaTest_testId_TP12 - 2019.01.09 at 19h 38m 36s.xml">
-      <configuration name="PesquisaTest.testId_TP12" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PesquisaTest_testId_TP12 - 2019.01.09 at 20h 13m 19s.xml">
-      <configuration name="PesquisaTest.testId_TP12" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PesquisaTest_testId_TP13 - 2019.01.09 at 20h 14m 09s.xml">
-      <configuration name="PesquisaTest.testId_TP13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PesquisaTest_testId_TP13 - 2019.01.09 at 20h 39m 38s.xml">
-      <configuration name="PesquisaTest.testId_TP13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PesquisaTest_testId_TP13 - 2019.01.09 at 20h 41m 33s.xml">
-      <configuration name="PesquisaTest.testId_TP13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PesquisaTest_testId_TP13 - 2019.01.09 at 20h 42m 19s.xml">
-      <configuration name="PesquisaTest.testId_TP13" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PesquisaTest_testId_TP13 - 2019.01.09 at 20h 43m 03s.xml">
-      <configuration name="PesquisaTest.testId_TP13" configurationId="JUnit" />
+    <history-entry file="PesquisaTest_testId_TP14 - 2019.01.10 at 18h 10m 41s.xml">
+      <configuration name="PesquisaTest.testId_TP14" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -916,7 +932,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2708018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -926,12 +942,12 @@
       <window_info id="Learn" order="7" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848944" visible="true" weight="0.4557377" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848944" visible="true" weight="0.2147541" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4977307" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4977307" weight="0.17868853" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50226927" side_tool="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Dependency Viewer" order="10" weight="0.32952693" />
@@ -940,7 +956,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Gradle" order="4" weight="0.16163142" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.16111952" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -988,13 +1004,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enums/TiposPesquisa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/commons_io_2_6_javadoc.xml" />
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1094,16 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/documentos/ficheiro 1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1125,69 +1124,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/filesTestes/TP/ficheiro 4.txt">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="149">
+          <caret line="1254" selection-start-line="1254" selection-end-line="1254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/filesTestes/TB6/ficheiroTest 6_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JFrames/PesquisaJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="36" column="100" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeituraFicheiros/LeituraDocumentos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="246">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3816#3817#0" expanded="true" />
+            <element signature="e#3853#3854#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
+            <element signature="e#3967#3968#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JFrames/PesquisaJFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Enums/TiposPesquisa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="36" column="100" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PesquisaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/filesTestes/TP/ficheiro 1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/filesTestes/TP/ficheiro 4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Core/Pesquisa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="189" column="13" selection-start-line="189" selection-start-column="13" selection-end-line="189" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="230" column="45" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6216#6217#0" expanded="true" />
-            <element signature="e#6240#6241#0" expanded="true" />
-            <element signature="e#6287#6288#0" expanded="true" />
-            <element signature="e#6313#6314#0" expanded="true" />
-            <element signature="e#6352#6353#0" expanded="true" />
-            <element signature="e#6376#6377#0" expanded="true" />
-            <element signature="e#6421#6422#0" expanded="true" />
-            <element signature="e#6447#6448#0" expanded="true" />
-            <element signature="e#6487#6488#0" expanded="true" />
-            <element signature="e#6512#6513#0" expanded="true" />
-            <element signature="e#6559#6560#0" expanded="true" />
-            <element signature="e#6587#6588#0" expanded="true" />
-            <element signature="e#6623#6624#0" expanded="true" />
-            <element signature="e#6653#6654#0" expanded="true" />
-            <element signature="e#6701#6702#0" expanded="true" />
-            <element signature="e#6739#6740#0" expanded="true" />
+            <element signature="e#7811#7812#0" expanded="true" />
+            <element signature="e#7925#7926#0" expanded="true" />
+            <element signature="e#7949#7950#0" expanded="true" />
+            <element signature="e#7996#7997#0" expanded="true" />
+            <element signature="e#8022#8023#0" expanded="true" />
+            <element signature="e#8061#8062#0" expanded="true" />
+            <element signature="e#8085#8086#0" expanded="true" />
+            <element signature="e#8130#8131#0" expanded="true" />
+            <element signature="e#8156#8157#0" expanded="true" />
+            <element signature="e#8196#8197#0" expanded="true" />
+            <element signature="e#8221#8222#0" expanded="true" />
+            <element signature="e#8268#8269#0" expanded="true" />
+            <element signature="e#8296#8297#0" expanded="true" />
+            <element signature="e#8332#8333#0" expanded="true" />
+            <element signature="e#8362#8363#0" expanded="true" />
+            <element signature="e#8410#8411#0" expanded="true" />
+            <element signature="e#8448#8449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PesquisaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="148" column="50" selection-start-line="148" selection-start-column="50" selection-end-line="148" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,43 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PesquisaTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-01-09T16:56:52" hostname="DESKTOP-SJLNRU1" time="0.796">
+<testsuite name="PesquisaTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-01-10T18:02:52" hostname="DESKTOP-SJLNRU1" time="1.493">
   <properties/>
-  <testcase name="testId_TP10()" classname="PesquisaTest" time="0.007"/>
-  <testcase name="testId_TB5()" classname="PesquisaTest" time="0.018"/>
+  <testcase name="testId_TP10()" classname="PesquisaTest" time="0.033"/>
+  <testcase name="testId_TP11()" classname="PesquisaTest" time="0.919"/>
+  <testcase name="testId_TP12()" classname="PesquisaTest" time="0.278"/>
+  <testcase name="testId_TP13()" classname="PesquisaTest" time="0.162"/>
+  <testcase name="testId_TB5()" classname="PesquisaTest" time="0.011"/>
   <testcase name="testId_TB6()" classname="PesquisaTest" time="0.001"/>
   <testcase name="testId_TB7()" classname="PesquisaTest" time="0.002"/>
   <testcase name="testId_TP3()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.001"/>
-  <testcase name="testId_TP5()" classname="PesquisaTest" time="0.0"/>
-  <testcase name="testId_TP6()" classname="PesquisaTest" time="0.057"/>
-  <testcase name="testId_TP7()" classname="PesquisaTest" time="0.498"/>
-  <testcase name="testId_TP8()" classname="PesquisaTest" time="0.197"/>
-  <testcase name="testId_TP9()" classname="PesquisaTest" time="0.001"/>
-  <system-out><![CDATA[1.0
-1.0
-3.0
-3.0
-1.0
-1.0
-1.0
-1.0
-1.4771212547196624
-1.0
-1.0
-1.0
-1.0
-1.4771212547196624
-4.431363764158987
-1.0
-1.0
-1.0
-1.0
-1.4771212547196624
-1.0
-1.0
-1.0
-1.0
-1.4771212547196624
-4.431363764158987
+  <testcase name="testId_TP4()" classname="PesquisaTest" time="0.002"/>
+  <testcase name="testId_TP5()" classname="PesquisaTest" time="0.001"/>
+  <testcase name="testId_TP6()" classname="PesquisaTest" time="0.015"/>
+  <testcase name="testId_TP7()" classname="PesquisaTest" time="0.017"/>
+  <testcase name="testId_TP8()" classname="PesquisaTest" time="0.02"/>
+  <testcase name="testId_TP9()" classname="PesquisaTest" time="0.011"/>
+  <system-out><![CDATA[testar2
+documento2
+do2
+tipo:2
+txt1
+testar2
+documento2
+do2
+tipo:2
+docx1
+teste1
+testar2
+documento2
+do2
+tipo:2
+txt1
+testar2
+documento2
+do2
+tipo:2
+docx1
+teste1
+testar2
+documento2
+do2
+tipo:2
+txt1
+testar2
+documento2
+do2
+tipo:2
+docx1
+teste1
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

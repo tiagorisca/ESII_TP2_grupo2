@@ -11,15 +11,17 @@ public class LeituraDocumentos {
     private final String FORMATO_TXT = "txt";
     private final String FORMATO_DOCX = "docx";
 
-    int numDocs ;
-    String path ;
-    int maxPalavras;
+    private int numDocs ;
+    private String path ;
+    private int maxPalavras;
+    private String nomesFicheiros[];
 
     public LeituraDocumentos(String path) {
         this.path = path;
         File folder = new File(this.path);
         File[] list = folder.listFiles();
         numDocs = list.length;
+        nomesFicheiros = new String[numDocs];
         maxPalavras = -1;
     }
 
@@ -40,8 +42,8 @@ public class LeituraDocumentos {
         String[] conteudosDocumentos = new String[this.numDocs];
 
         for(int i=0; i<listaFicheiros.length; i++){
-            String name = listaFicheiros[i].getName();
-            String formato = name.split("\\.")[1];
+            nomesFicheiros[i]  = listaFicheiros[i].getName();
+            String formato = nomesFicheiros[i].split("\\.")[1];
             switch(formato){
                 case FORMATO_TXT:
                     conteudosDocumentos[i] = lerTxt(listaFicheiros[i].getName());
@@ -125,5 +127,11 @@ public class LeituraDocumentos {
         return maxPalavras;
     }
 
+    public String[] getNomesFicheiros() {
+        return nomesFicheiros;
+    }
 
+    public void setNomesFicheiros(String[] nomesFicheiros) {
+        this.nomesFicheiros = nomesFicheiros;
+    }
 }
