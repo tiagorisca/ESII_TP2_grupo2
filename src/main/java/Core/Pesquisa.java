@@ -27,7 +27,7 @@ public class Pesquisa {
             case NORMAL:
                 return retornarTodosOrdemGrau();
             case COM_LIMITE_MAXIMO:
-                break;
+                return retornarFicheirosPorLimite(input);
             case COM_LIMITE_GRAU:
                 break;
         }
@@ -230,6 +230,14 @@ public class Pesquisa {
 
     public String[] retornarTodosOrdemGrau(){
         return ld.getNomesFicheiros();
+    }
+
+    public String[] retornarFicheirosPorLimite(int limite){
+        String[] nomes = new String[limite];
+        for(int i=0; i<limite; i++){
+            nomes[i]=ld.getNomesFicheiros()[i];
+        }
+        return nomes;
     }
 
     public ContagemPalavra[][] getM() {
