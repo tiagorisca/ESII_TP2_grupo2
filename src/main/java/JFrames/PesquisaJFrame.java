@@ -7,6 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
 public class PesquisaJFrame extends javax.swing.JFrame{
 
@@ -85,7 +86,11 @@ public class PesquisaJFrame extends javax.swing.JFrame{
         Button_pesquisar.setText("Pesquisar");
         Button_pesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Button_pesquisarActionPerformed(evt);
+                try {
+                    Button_pesquisarActionPerformed(evt);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         });
 
@@ -188,7 +193,33 @@ public class PesquisaJFrame extends javax.swing.JFrame{
         TextBox_pesquisa.setForeground(Color.GRAY);
     }
 
-    private void Button_pesquisarActionPerformed(java.awt.event.ActionEvent evt) {
+    private void Button_pesquisarActionPerformed(java.awt.event.ActionEvent evt) throws IOException {
+        String[] resultados = new String[0];
+
+        try{
+            Double values = Double.parseDouble(TextBox_input.getText());
+
+        switch (ComboBox_tipoPesquisa.getSelectedIndex()){
+            case 0:
+                resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.NORMAL, values);
+                break;
+            case 1:
+                resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.COM_LIMITE_MAXIMO, values);
+                break;
+            case 2:
+                resultados = pesquisa.pesquisar(TextBox_pesquisa.getText(), TiposPesquisa.COM_LIMITE_GRAU, values);
+                break;
+        }
+        DefaultListModel modelo = new DefaultListModel();
+
+        for(int i=0; i<resultados.length; i++){
+            modelo.addElement(resultados[i]);
+        }
+
+        List_pesquisa.setModel(modelo);
+        }catch (Exception c){
+            System.out.println(c + "Deve de ser introduzido um valor numérico");
+        }
         // TODO add your handling code here:
     }
 
