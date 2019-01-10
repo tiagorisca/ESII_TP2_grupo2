@@ -5,6 +5,7 @@ import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class LeituraDocumentos {
@@ -55,8 +56,35 @@ public class LeituraDocumentos {
                     conteudosDocumentos[i] = "";
             }
         }
-
+        conteudosDocumentos = ordenarFicheirosPorNome(conteudosDocumentos);
         return conteudosDocumentos;
+    }
+
+    public String[] ordenarFicheirosPorNome(String[] conteudosDocumentos){
+
+        String[] tempNomes = new String[getNumDocs()];
+        String[] tempConteudos = new String[getNumDocs()];
+        ArrayList<Integer> indicesUsados = new ArrayList<>();
+        int contador = 0;
+
+        while(contador<getNumDocs()){
+            int indicePrimeiroAlpha = 0;
+            String primeiroAlpha = "";
+            for(int i=0; i<getNumDocs(); i++){
+                if(!indicesUsados.contains(i)){
+                    if(primeiroAlpha.equals("") || nomesFicheiros[i].compareTo(primeiroAlpha) <= 0){
+                        primeiroAlpha = nomesFicheiros[i];
+                        indicePrimeiroAlpha = i;
+                    }
+                }
+            }
+            tempNomes[contador] = getNomesFicheiros()[indicePrimeiroAlpha];
+            tempConteudos[contador] = conteudosDocumentos[indicePrimeiroAlpha];
+            indicesUsados.add(indicePrimeiroAlpha);
+            contador++;
+        }
+        setNomesFicheiros(tempNomes);
+        return tempConteudos;
     }
 
     private String lerTxt(String name) throws IOException {
