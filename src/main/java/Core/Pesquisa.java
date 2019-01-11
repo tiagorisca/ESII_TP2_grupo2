@@ -13,18 +13,19 @@ public class Pesquisa {
     private ContagemPalavra m[][];
     private ContagemPalavra q[];
     private double grauSim[];
+    private TiposPesquisa tipoPesquisa;
 
     public Pesquisa(String path){
         ld = new LeituraDocumentos(path);
         grauSim = new double[ld.getNumDocs()];
     }
 
-    public String[] pesquisar(String pesquisa, TiposPesquisa tipo_pesquisa, double input) throws IOException {
+    public String[] pesquisar(String pesquisa, TiposPesquisa tipoPesquisa, double input) throws IOException {
         definirMatrizQ(pesquisa);
         definirMatrizM();
         verificacaoSemelhanca();
         grauSemelhanca();
-        switch(tipo_pesquisa){
+        switch(tipoPesquisa){
             case NORMAL:
                 return retornarTodosOrdemGrau();
             case COM_LIMITE_MAXIMO:
@@ -294,4 +295,8 @@ public class Pesquisa {
     public void setGrauSim(double[] grauSim) {
         this.grauSim = grauSim;
     }
+
+    public TiposPesquisa getTipoPesquisa() { return tipoPesquisa; }
+
+    public void setTipoPesquisa(TiposPesquisa tipoPesquisa) { this.tipoPesquisa = tipoPesquisa; }
 }

@@ -75,7 +75,7 @@ public class LeituraDocumentosTest {
      * @throws IOException
      */
     @Test
-    public void testId_TB4() throws IOException {
+    public void testId_TB3() throws IOException {
         LeituraDocumentos ld = new LeituraDocumentos("files/filesTestes/TB4/");
         String[] ler = ld.lerDocumentos();
 
