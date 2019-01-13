@@ -81,4 +81,9 @@ public class LeituraDocumentosTest {
 
         assertEquals("", ler[0]);
     }
+
+    @Test
+    public void testExple(){
+        LeituraDocumentos ld = new LeituraDocumentos(null);
+    }
 }

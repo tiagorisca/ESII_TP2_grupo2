@@ -2,6 +2,7 @@ package JFrames;
 
 import Core.Pesquisa;
 import Enums.TiposPesquisa;
+import Exeption.ExceptionMinimo;
 
 import javax.swing.*;
 import java.awt.*;
@@ -88,7 +89,7 @@ public class PesquisaJFrame extends javax.swing.JFrame{
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 try {
                     Button_pesquisarActionPerformed(evt);
-                } catch (IOException e) {
+                } catch (IOException | ExceptionMinimo e) {
                     e.printStackTrace();
                 }
             }
@@ -193,7 +194,7 @@ public class PesquisaJFrame extends javax.swing.JFrame{
         TextBox_pesquisa.setForeground(Color.GRAY);
     }
 
-    private void Button_pesquisarActionPerformed(java.awt.event.ActionEvent evt) throws IOException {
+    private void Button_pesquisarActionPerformed(java.awt.event.ActionEvent evt) throws IOException, ExceptionMinimo {
 
         if(TextBox_pesquisa.getText().equals("") ||
                 (TextBox_pesquisa.getForeground() == Color.GRAY &&

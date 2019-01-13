@@ -10,8 +10,7 @@ public class ContagemPalavra {
         this.contagem = contagem;
     }
 
-    public ContagemPalavra() {
-    }
+    public ContagemPalavra() { }
 
     public double getValor() {
         return valor;
@@ -20,7 +19,6 @@ public class ContagemPalavra {
     public void setValor(double valor) {
         this.valor = valor;
     }
-
 
     public String getPalavra() {
         return palavra;

@@ -1,9 +1,11 @@
 package Core;
 
 import Enums.TiposPesquisa;
+import Exeption.ExceptionMinimo;
 import LeituraFicheiros.LeituraDocumentos;
 
 import java.io.IOException;
+import java.rmi.server.ExportException;
 import java.text.DecimalFormat;
 import java.text.Normalizer;
 import java.util.ArrayList;
@@ -15,43 +17,58 @@ public class Pesquisa {
     private double grauSim[];
     private TiposPesquisa tipoPesquisa;
 
-    public Pesquisa(String path){
-        ld = new LeituraDocumentos(path);
-        grauSim = new double[ld.getNumDocs()];
-    }
-
-    public String[] pesquisar(String pesquisa, TiposPesquisa tipoPesquisa, double input) throws IOException {
-        definirMatrizQ(pesquisa);
-        definirMatrizM();
-        verificacaoSemelhanca();
-        grauSemelhanca();
-        switch(tipoPesquisa){
-            case NORMAL:
-                return retornarTodosOrdemGrau();
-            case COM_LIMITE_MAXIMO:
-                return retornarFicheirosPorLimite(input);
-            case COM_LIMITE_GRAU:
-                return retornarFicheirosLimiteGrau(input);
+    public Pesquisa(String path) throws NullPointerException{
+        if(path != null){
+            ld = new LeituraDocumentos(path);
+            grauSim = new double[ld.getNumDocs()];
+        }else{
+            throw new NullPointerException();
         }
-        return new String[1];
+
     }
 
-    public String[] retornarFicheirosLimiteGrau(double input) {
-        int cont = 0;
-        String[] tempFiles = new String[ld.getNumDocs()];
-        for(int i = 0; i<ld.getNumDocs(); i++){
-            if(grauSim[i]*100 >= input){
-                DecimalFormat df = new DecimalFormat("0.00");
-                String grauFormatado = df.format(grauSim[i]*100);
-                tempFiles[cont] = ld.getNomesFicheiros()[i] + " (Grau de similaridade: " + grauFormatado + "%)";
-                cont++;
+    public String[] pesquisar(String pesquisa, TiposPesquisa tipoPesquisa, double input) throws IOException, NullPointerException, ExceptionMinimo {
+        if(pesquisa == null || tipoPesquisa == null ){
+            throw new NullPointerException();
+        }else if(input <-1) {
+            throw new ExceptionMinimo();
+        }else{
+            definirMatrizQ(pesquisa);
+            definirMatrizM();
+            verificacaoSemelhanca();
+            grauSemelhanca();
+            switch(tipoPesquisa){
+                case NORMAL:
+                    return retornarTodosOrdemGrau();
+                case COM_LIMITE_MAXIMO:
+                    return retornarFicheirosPorLimite(input);
+                case COM_LIMITE_GRAU:
+                    return retornarFicheirosLimiteGrau(input);
             }
+            return new String[1];
         }
-        String[] resultados = new String[cont];
-        for(int i = 0; i<cont; i++){
-            resultados[i] = tempFiles[i];
+    }
+
+    public String[] retornarFicheirosLimiteGrau(double input) throws ExceptionMinimo {
+        if(input<0){
+            throw new ExceptionMinimo();
+        }else{
+            int cont = 0;
+            String[] tempFiles = new String[ld.getNumDocs()];
+            for(int i = 0; i<ld.getNumDocs(); i++){
+                if(grauSim[i]*100 >= input){
+                    DecimalFormat df = new DecimalFormat("0.00");
+                    String grauFormatado = df.format(grauSim[i]*100);
+                    tempFiles[cont] = ld.getNomesFicheiros()[i] + " (Grau de similaridade: " + grauFormatado + "%)";
+                    cont++;
+                }
+            }
+            String[] resultados = new String[cont];
+            for(int i = 0; i<cont; i++){
+                resultados[i] = tempFiles[i];
+            }
+            return resultados;
         }
-        return resultados;
     }
 
     public void definirMatrizQ(String pesquisa) {
@@ -252,16 +269,20 @@ public class Pesquisa {
         return ld.getNomesFicheiros();
     }
 
-    public String[] retornarFicheirosPorLimite(double input){
-        int limite = (int) input;
-        String[] nomes = new String[limite];
-        if(limite > ld.getNomesFicheiros().length){
-            limite = ld.getNomesFicheiros().length;
+    public String[] retornarFicheirosPorLimite(double input) throws ExceptionMinimo {
+        if(input<0){
+            throw new ExceptionMinimo();
+        }else{
+            int limite = (int) input;
+            String[] nomes = new String[limite];
+            if(limite > ld.getNomesFicheiros().length){
+                limite = ld.getNomesFicheiros().length;
+            }
+            for(int i=0; i<limite; i++){
+                nomes[i]=ld.getNomesFicheiros()[i];
+            }
+            return nomes;
         }
-        for(int i=0; i<limite; i++){
-            nomes[i]=ld.getNomesFicheiros()[i];
-        }
-        return nomes;
     }
 
     public ContagemPalavra[][] getM() {
