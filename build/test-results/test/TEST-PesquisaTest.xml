@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PesquisaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-13T17:20:59" hostname="DESKTOP-U8IOL9D" time="0.949">
+<testsuite name="PesquisaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-13T17:36:51" hostname="DESKTOP-U8IOL9D" time="0.955">
   <properties/>
-  <testcase name="testID_TP23()" classname="PesquisaTest" time="0.949"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testID_TP23()" classname="PesquisaTest" time="0.955"/>
+  <system-out><![CDATA[ficheiro 4.txt (Grau de similaridade: 100,00%)
+ficheiro 2.docx (Grau de similaridade: 0,00%)
+ficheiro 1.txt (Grau de similaridade: 0,00%)
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

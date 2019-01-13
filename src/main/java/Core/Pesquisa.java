@@ -5,10 +5,11 @@ import Exeption.ExceptionMinimo;
 import LeituraFicheiros.LeituraDocumentos;
 
 import java.io.IOException;
-import java.rmi.server.ExportException;
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.Normalizer;
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class Pesquisa {
     LeituraDocumentos ld;
@@ -57,7 +58,10 @@ public class Pesquisa {
             String[] tempFiles = new String[ld.getNumDocs()];
             for(int i = 0; i<ld.getNumDocs(); i++){
                 if(grauSim[i]*100 >= input){
-                    DecimalFormat df = new DecimalFormat("0.00");
+                    DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.UK);
+                    otherSymbols.setDecimalSeparator(',');
+                    otherSymbols.setGroupingSeparator('.');
+                    DecimalFormat df = new DecimalFormat("0.00", otherSymbols);
                     String grauFormatado = df.format(grauSim[i]*100);
                     tempFiles[cont] = ld.getNomesFicheiros()[i] + " (Grau de similaridade: " + grauFormatado + "%)";
                     cont++;
