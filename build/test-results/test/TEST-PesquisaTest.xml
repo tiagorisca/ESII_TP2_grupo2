@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PesquisaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-13T17:00:45" hostname="DESKTOP-U8IOL9D" time="0.011">
+<testsuite name="PesquisaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-13T17:20:59" hostname="DESKTOP-U8IOL9D" time="0.949">
   <properties/>
-  <testcase name="testID_TP26()" classname="PesquisaTest" time="0.011"/>
+  <testcase name="testID_TP23()" classname="PesquisaTest" time="0.949"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

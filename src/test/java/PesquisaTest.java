@@ -256,6 +256,9 @@ public class PesquisaTest {
         p.grauSemelhanca();
         String[] list = p.retornarFicheirosLimiteGrau(0);
         String[] esperado = new String[]{"ficheiro 4.txt (Grau de similaridade: 100,00%)", "ficheiro 2.docx (Grau de similaridade: 0,00%)", "ficheiro 1.txt (Grau de similaridade: 0,00%)"};
+        System.out.println(list[0]);
+        System.out.println(list[1]);
+        System.out.println(list[2]);
         assertEquals(esperado[0], list[0]);
         assertEquals(esperado[1], list[1]);
         assertEquals(esperado[2], list[2]);
